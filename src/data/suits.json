@@ -48,7 +48,7 @@
       "vibranium_laced": false
     },
     "lore": "Built in a cave in Afghanistan from salvaged Stark Industries weapons, the Mark I was Tony's desperate bid for survival. Crude and heavy — it was the seed of everything that followed.",
-    "image_path": "/suits/mark-1.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/f/fb/Iron_Man_Armor_-_Mark_I.png/revision/latest/scale-to-width-down/600?cb=20181116150929",
     "legacy_trail": [
       {
         "label": "No flight stabilizers",
@@ -115,7 +115,7 @@
       "vibranium_laced": false
     },
     "lore": "The first full-flight suit, built in Tony's Malibu workshop. It proved the concept of repulsor-driven flight but iced up at altitude — a flaw that drove every suit that followed.",
-    "image_path": "/suits/mark-2.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/0/0d/Iron_Man_Armor_-_Mark_II.png/revision/latest/scale-to-width-down/600?cb=20170728191151",
     "legacy_trail": []
   },
   {
@@ -171,7 +171,7 @@
       "vibranium_laced": false
     },
     "lore": "The first fully combat-ready suit and the template for all that followed. Its iconic red and gold palette became synonymous with Iron Man.",
-    "image_path": "/suits/mark-3.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/4/47/Iron_Man_Armor_-_Mark_III.png/revision/latest/scale-to-width-down/600?cb=20170424185316",
     "legacy_trail": []
   },
   {
@@ -224,7 +224,7 @@
       "vibranium_laced": false
     },
     "lore": "An iterative refinement of the Mark III, worn while Tony was being slowly poisoned by his own arc reactor. It served as his primary suit during the Hammer Expo attack.",
-    "image_path": "/suits/mark-4.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/6/6a/Iron_Man_Armor_-_Mark_IV.png/revision/latest/scale-to-width-down/600?cb=20180330035146",
     "legacy_trail": []
   },
   {
@@ -275,7 +275,7 @@
       "vibranium_laced": false
     },
     "lore": "Designed for portability, the Mark V folds into a briefcase and deploys in seconds. A sacrifice in durability for unmatched accessibility.",
-    "image_path": "/suits/mark-5.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/b/b3/Iron_Man_Armor_-_Mark_V.png/revision/latest/scale-to-width-down/600?cb=20170424185355",
     "legacy_trail": []
   },
   {
@@ -329,7 +329,7 @@
       "vibranium_laced": false
     },
     "lore": "Powered by a new triangular arc reactor using Tony's self-synthesised element, the Mark VI solved the palladium poisoning crisis and debuted at the Stark Expo battle.",
-    "image_path": "/suits/mark-6.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/4/4c/Hot_Toys_IM_MK_6_Transparent.png/revision/latest/scale-to-width-down/600?cb=20170802024240",
     "legacy_trail": []
   },
   {
@@ -383,7 +383,7 @@
       "vibranium_laced": false
     },
     "lore": "Designed with wristband-actuated auto-deploy, the Mark VII allowed Tony to suit up in freefall. It survived the Chitauri invasion and a nuclear missile ride through the wormhole.",
-    "image_path": "/suits/mark-7.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/7/71/Iron_Man_Armor_-_Mark_VII.png/revision/latest/scale-to-width-down/600?cb=20181207085104",
     "legacy_trail": []
   },
   {
@@ -435,7 +435,7 @@
       "vibranium_laced": false
     },
     "lore": "The first suit of Tony's obsessive post-Avengers build phase. Part of the Iron Legion deployed against Aldrich Killian's Extremis soldiers.",
-    "image_path": "/suits/mark-8.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/0/0a/Iron_Man_Armor_-_Mark_VIII.jpg/revision/latest/scale-to-width-down/600?cb=20181207090707",
     "legacy_trail": []
   },
   {
@@ -487,7 +487,7 @@
       "vibranium_laced": false
     },
     "lore": "Deployed remotely during the Iron Legion activation sequence. Destroyed during the Malibu mansion assault or the Killian confrontation.",
-    "image_path": "/suits/mark-9.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/1/1a/Iron_Man_Armor_-_Mark_IX.png/revision/latest/scale-to-width-down/600?cb=20170801154216",
     "legacy_trail": []
   },
   {
@@ -539,7 +539,7 @@
       "vibranium_laced": false
     },
     "lore": "A darker variant built with low-observable materials as Tony explored stealth configurations within the Legion series.",
-    "image_path": "/suits/mark-10.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/5/5e/Iron_Man_Armor_-_Mark_X.jpg/revision/latest/scale-to-width-down/600?cb=20181207091221",
     "legacy_trail": []
   },
   {
@@ -591,7 +591,7 @@
       "vibranium_laced": false
     },
     "lore": "An extended-range weapons configuration, Longbow was built to engage threats from a distance before they reached Tony's position.",
-    "image_path": "/suits/mark-11.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/7/74/Iron_Man_Armor_-_Mark_XI.jpg/revision/latest/scale-to-width-down/600?cb=20181207091511",
     "legacy_trail": []
   },
   {
@@ -643,7 +643,7 @@
       "vibranium_laced": false
     },
     "lore": "A heavier-plated variant trading agility for resilience, designed to sustain punishment in sustained firefights.",
-    "image_path": "/suits/mark-12.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/e/e4/Iron_Man_Armor_-_Mark_XII.jpg/revision/latest/scale-to-width-down/600?cb=20181207195940",
     "legacy_trail": []
   },
   {
@@ -695,7 +695,7 @@
       "vibranium_laced": false
     },
     "lore": "A load-bearing variant built with reinforced framing to handle extreme structural stress — part rescue suit, part battering ram.",
-    "image_path": "/suits/mark-13.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/0/04/Iron_Man_Armor_-_Mark_XIII.jpg/revision/latest/scale-to-width-down/600?cb=20181207202039",
     "legacy_trail": []
   },
   {
@@ -747,7 +747,7 @@
       "vibranium_laced": false
     },
     "lore": "Built around an overclocked arc reactor configuration, the Mark XIV channels higher energy output at the cost of thermal stability.",
-    "image_path": "/suits/mark-14.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/3/3e/Iron_Man_Armor_-_Mark_XIV.jpg/revision/latest/scale-to-width-down/600?cb=20181207202227",
     "legacy_trail": []
   },
   {
@@ -800,7 +800,7 @@
       "vibranium_laced": false
     },
     "lore": "Tony's first dedicated stealth suit, built with radar-absorbent plating and a suppressed arc reactor signature. What it lacks in firepower it makes up for in invisibility.",
-    "image_path": "/suits/mark-15.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/a/aa/Iron_Man_Armor_-_Mark_XV.png/revision/latest/scale-to-width-down/600?cb=20170424185621",
     "legacy_trail": []
   },
   {
@@ -852,7 +852,7 @@
       "vibranium_laced": false
     },
     "lore": "A sleek black-and-crimson variant optimised for night operations, with enhanced low-light sensor arrays and minimal light emission.",
-    "image_path": "/suits/mark-16.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/2/2f/Iron_Man_Armor_-_Mark_XVI.jpg/revision/latest/scale-to-width-down/600?cb=20181207202708",
     "legacy_trail": []
   },
   {
@@ -904,7 +904,7 @@
       "vibranium_laced": false
     },
     "lore": "Built around a massively oversized chest arc reactor for maximum energy-beam output. The heaviest pre-Igor suit, designed to punch through reinforced structures.",
-    "image_path": "/suits/mark-17.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/d/db/Iron_Man_Armor_-_Mark_XVII.png/revision/latest/scale-to-width-down/600?cb=20170424185704",
     "legacy_trail": []
   },
   {
@@ -956,7 +956,7 @@
       "vibranium_laced": false
     },
     "lore": "A well-rounded suit with a polished silver trim — no extreme specialisation, just refinement. Tony's most balanced Legion-era build.",
-    "image_path": "/suits/mark-18.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/2/2b/Iron_Man_Armor_-_Mark_XVIII.jpg/revision/latest/scale-to-width-down/600?cb=20181207203242",
     "legacy_trail": []
   },
   {
@@ -1008,7 +1008,7 @@
       "vibranium_laced": false
     },
     "lore": "An agility-focused suit with striking orange-and-black colouring and a pursuit-optimised aerodynamic profile. Built to run down fast-moving targets.",
-    "image_path": "/suits/mark-19.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/e/e6/Iron_Man_Armor_-_Mark_XIX.jpg/revision/latest/scale-to-width-down/600?cb=20181207203830",
     "legacy_trail": []
   },
   {
@@ -1060,7 +1060,7 @@
       "vibranium_laced": false
     },
     "lore": "The Python's dark green finish and flexible joint design allowed it to navigate confined spaces and execute extreme manoeuvres other suits couldn't manage.",
-    "image_path": "/suits/mark-20.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/1/1f/Iron_Man_Armor_-_Mark_XX.png/revision/latest/scale-to-width-down/600?cb=20170424185724",
     "legacy_trail": []
   },
   {
@@ -1112,7 +1112,7 @@
       "vibranium_laced": false
     },
     "lore": "All gold. Tony built the Midas as a fully gold-titanium variant — partly an aesthetic experiment, partly to test different alloy ratios. Everything Stark touches turns to gold.",
-    "image_path": "/suits/mark-21.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/3/37/Iron_Man_Armor_-_Mark_XXI.png/revision/latest/scale-to-width-down/600?cb=20170424185744",
     "legacy_trail": []
   },
   {
@@ -1164,7 +1164,7 @@
       "vibranium_laced": false
     },
     "lore": "One of the fastest suits in the Legion series, Hot Rod's deep crimson and chrome livery screamed speed before it even moved. Built for high-speed intercept missions.",
-    "image_path": "/suits/mark-22.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/f/f8/Iron_Man_Armor_-_Mark_XXII.png/revision/latest/scale-to-width-down/600?cb=20170424185756",
     "legacy_trail": []
   },
   {
@@ -1217,7 +1217,7 @@
       "vibranium_laced": false
     },
     "lore": "The Shades featured tinted sensor arrays and a deep maroon-grey finish that made it difficult to track visually. A balance of stealth and combat capability.",
-    "image_path": "/suits/mark-23.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/6/65/Iron_Man_Armor_-_Mark_XXIII.png/revision/latest/scale-to-width-down/600?cb=20170801164225",
     "legacy_trail": []
   },
   {
@@ -1270,7 +1270,7 @@
       "vibranium_laced": false
     },
     "lore": "The Tank earned its name. Clad in the heaviest armour plating of the Legion series, it could absorb direct missile hits and keep operating. Slow, but nearly indestructible.",
-    "image_path": "/suits/mark-24.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/a/a0/Iron_Man_Armor_-_Mark_XXIV.png/revision/latest/scale-to-width-down/600?cb=20170424185812",
     "legacy_trail": []
   },
   {
@@ -1322,7 +1322,7 @@
       "vibranium_laced": false
     },
     "lore": "The Thumper's heavily reinforced gauntlets deliver seismic impact strikes, built for opponents requiring raw kinetic force rather than energy weapons.",
-    "image_path": "/suits/mark-25.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/8/8c/Iron_Man_Armor_-_Mark_XXV.png/revision/latest/scale-to-width-down/600?cb=20170424185826",
     "legacy_trail": []
   },
   {
@@ -1374,7 +1374,7 @@
       "vibranium_laced": false
     },
     "lore": "Purpose-built with radiation hardening and hazmat containment capabilities. The Gamma could operate safely in nuclear or radiological environments.",
-    "image_path": "/suits/mark-26.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/4/4f/Iron_Man_Armor_-_Mark_XXVI.png/revision/latest/scale-to-width-down/600?cb=20170424185842",
     "legacy_trail": []
   },
   {
@@ -1426,7 +1426,7 @@
       "vibranium_laced": false
     },
     "lore": "The mirror-chrome Disco is exactly what it sounds like — a fully polished suit that reflects light in all directions. Tony clearly had a sense of humour when naming this one.",
-    "image_path": "/suits/mark-27.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/b/bb/Iron_Man_Armor_-_Mark_XXVII.png/revision/latest/scale-to-width-down/600?cb=20170424195610",
     "legacy_trail": []
   },
   {
@@ -1478,7 +1478,7 @@
       "vibranium_laced": false
     },
     "lore": "An all-rounder with a distinctive burnt-orange and black finish. Jack was Tony's compact combat variant — no extreme specialisations, just excellent fundamentals.",
-    "image_path": "/suits/mark-28.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/4/4e/Iron_Man_Armor_-_Mark_XXVIII.jpg/revision/latest/scale-to-width-down/600?cb=20181207204238",
     "legacy_trail": []
   },
   {
@@ -1531,7 +1531,7 @@
       "vibranium_laced": false
     },
     "lore": "The Fiddler was built with acoustic dampening systems to minimise sound signature — a suit that moves in near-silence. Ideal for clandestine operations.",
-    "image_path": "/suits/mark-29.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/d/db/Iron_Man_Armor_-_Mark_XXIX.jpg/revision/latest/scale-to-width-down/600?cb=20181207094613",
     "legacy_trail": []
   },
   {
@@ -1583,7 +1583,7 @@
       "vibranium_laced": false
     },
     "lore": "Blue Steel's deep navy and silver colouring was inspired by deep-water environments. It incorporated early underwater operation capability — a precursor to Hammerhead.",
-    "image_path": "/suits/mark-30.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/4/4b/Iron_Man_Armor_-_Mark_XXX.png/revision/latest/scale-to-width-down/600?cb=20170424195652",
     "legacy_trail": []
   },
   {
@@ -1635,7 +1635,7 @@
       "vibranium_laced": false
     },
     "lore": "The Piston's hydraulic actuator frame delivers enormous kinetic strikes, designed to breach fortified structures and demolish heavy machinery.",
-    "image_path": "/suits/mark-31.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/3/33/Iron_Man_Armor_-_Mark_XXXI.jpg/revision/latest/scale-to-width-down/600?cb=20181207172820",
     "legacy_trail": []
   },
   {
@@ -1686,7 +1686,7 @@
       "vibranium_laced": false
     },
     "lore": "Red and white with clean geometric lines, the Romeo was Tony's most refined Legion aesthetic — a suit he reportedly called his favourite to look at.",
-    "image_path": "/suits/mark-32.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/4/40/Iron_Man_Armor_-_Mark_XXXII.jpg/revision/latest/scale-to-width-down/600?cb=20180517065231",
     "legacy_trail": []
   },
   {
@@ -1738,7 +1738,7 @@
       "vibranium_laced": false
     },
     "lore": "The MCU's take on the classic Silver Centurion — silver with crimson accents, the most balanced suit in the entire Legion. Tony considered it the peak of his pre-Avengers-era engineering.",
-    "image_path": "/suits/mark-33.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/2/2a/Hot_Toys_IM_MK_33_Transparent.png/revision/latest/scale-to-width-down/600?cb=20170424185945",
     "legacy_trail": []
   },
   {
@@ -1790,7 +1790,7 @@
       "vibranium_laced": false
     },
     "lore": "An asymmetric weapons configuration with a heavily reinforced left arm for close-quarters combat. Tony was testing whether dominant-side loading improved reaction accuracy.",
-    "image_path": "/suits/mark-34.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/7/78/Iron_Man_Armor_-_Mark_XXXIV.jpg/revision/latest/scale-to-width-down/600?cb=20181207093725",
     "legacy_trail": []
   },
   {
@@ -1842,7 +1842,7 @@
       "vibranium_laced": false
     },
     "lore": "The Red Snapper featured hydraulically extending arm attachments, designed for search and rescue operations — clearing rubble and extracting trapped civilians from disaster zones.",
-    "image_path": "/suits/mark-35.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/a/a4/Iron_Man_Armor_-_Mark_XXXV.png/revision/latest/scale-to-width-down/600?cb=20170424190010",
     "legacy_trail": []
   },
   {
@@ -1895,7 +1895,7 @@
       "vibranium_laced": false
     },
     "lore": "White and blue, the Peacemaker was designed with non-lethal crowd control systems — EMP, sonic deterrents, stun repulsors. Tony's attempt at a diplomatic suit.",
-    "image_path": "/suits/mark-36.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/7/7f/Iron_Man_Armor_-_Mark_XXXVI.png/revision/latest/scale-to-width-down/600?cb=20170424190021",
     "legacy_trail": []
   },
   {
@@ -1948,7 +1948,7 @@
       "vibranium_laced": false
     },
     "lore": "Tony's first fully operational underwater suit. The Hammerhead was built for deep-sea operations — pressure-hardened hull, waterproof systems, and torpedo launchers.",
-    "image_path": "/suits/mark-37.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/1/12/XXXVII.png/revision/latest/scale-to-width-down/600?cb=20210605174758",
     "legacy_trail": []
   },
   {
@@ -2002,7 +2002,7 @@
       "vibranium_laced": false
     },
     "lore": "The heaviest suit Tony ever built, Igor is a walking fortress. Its dual arc reactor system and seismic anchor legs let it lift and stabilise collapsing structures. Nearly immovable when locked in place.",
-    "image_path": "/suits/mark-38.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/d/d0/Iron_Man_Armor_-_Mark_XXXVIII.png/revision/latest/scale-to-width-down/600?cb=20170424190114",
     "legacy_trail": []
   },
   {
@@ -2056,7 +2056,7 @@
       "vibranium_laced": false
     },
     "lore": "Tony's first space-capable suit, designed for orbital operations with vacuum sealing and cryogenic insulation. The Starboost could achieve orbital insertion under its own power.",
-    "image_path": "/suits/mark-39.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/1/14/Iron_Man_Armor_-_Mark_XXXIX.png/revision/latest/scale-to-width-down/600?cb=20170424190154",
     "legacy_trail": []
   },
   {
@@ -2108,7 +2108,7 @@
       "vibranium_laced": false
     },
     "lore": "The fastest suit of the Legion series — Mach 8.5, sacrificing armour for pure velocity. Used to intercept the falling oil rig workers in the Extremis showdown.",
-    "image_path": "/suits/mark-40.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/7/71/Iron_Man_Armor_-_Mark_XL.png/revision/latest/scale-to-width-down/600?cb=20170424190219",
     "legacy_trail": []
   },
   {
@@ -2160,7 +2160,7 @@
       "vibranium_laced": false
     },
     "lore": "The lightest suit ever built by Tony — an exposed titanium skeleton with minimal surface plating. Bones trades protection for unmatched agility. Built to prove the concept of minimal mass.",
-    "image_path": "/suits/mark-41.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/7/7e/Iron_Man_Armor_-_Mark_XLI.png/revision/latest/scale-to-width-down/600?cb=20170424190235",
     "legacy_trail": []
   },
   {
@@ -2213,7 +2213,7 @@
       "vibranium_laced": false
     },
     "lore": "Tony's primary suit during the Mandarin crisis, the Mark XLII pioneered thought-controlled assembly — individual panels flying to the wearer on neural command. It was destroyed by Killian.",
-    "image_path": "/suits/mark-42.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/3/3b/Iron_Man_Armor_-_Mark_XLII.png/revision/latest/scale-to-width-down/600?cb=20170424190250",
     "legacy_trail": []
   },
   {
@@ -2266,7 +2266,7 @@
       "vibranium_laced": false
     },
     "lore": "Built after the events of IM3 without Tony's arc reactor implant, the Mark XLIII used an external chest piece. Destroyed by Ultron in the Avengers facility during their first confrontation.",
-    "image_path": "/suits/mark-43.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/3/3e/Iron_Man_Armor_-_Mark_XLIII.png/revision/latest/scale-to-width-down/600?cb=20170424190318",
     "legacy_trail": []
   },
   {
@@ -2323,7 +2323,7 @@
       "vibranium_laced": false
     },
     "lore": "Designed specifically to subdue the Hulk, the Hulkbuster is the most physically imposing suit in Tony's arsenal. Worn over the Mark XLIII, it can replace its own damaged parts mid-combat via an orbital support pod.",
-    "image_path": "/suits/mark-44.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/0/0b/Iron_Man_Armor_-_Mark_XLIV.png/revision/latest/scale-to-width-down/600?cb=20181207092727",
     "legacy_trail": []
   },
   {
@@ -2376,7 +2376,7 @@
       "vibranium_laced": false
     },
     "lore": "Worn during the Sokovia crisis, the Mark XLV held a city in the sky. Destroyed in the battle when Ultron's sentries overwhelmed Tony's position above the floating city fragment.",
-    "image_path": "/suits/mark-45.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/c/c2/Iron_Man_Armor_-_Mark_XLV.png/revision/latest/scale-to-width-down/600?cb=20170425073037",
     "legacy_trail": []
   },
   {
@@ -2430,7 +2430,7 @@
       "vibranium_laced": false
     },
     "lore": "Worn during the Avengers' civil war, the Mark XLVI battled both Captain America and Bucky Barnes simultaneously. Severely damaged during the Siberia confrontation.",
-    "image_path": "/suits/mark-46.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/7/70/Iron_Man_Armor_-_Mark_XLVI.png/revision/latest/scale-to-width-down/600?cb=20170424190420",
     "legacy_trail": []
   },
   {
@@ -2484,7 +2484,7 @@
       "vibranium_laced": false
     },
     "lore": "Running FRIDAY as its primary AI, the Mark XLVII was Tony's go-to suit during the Spider-Man mentorship period. Intercepted the hijacked Stark cargo plane over the Atlantic.",
-    "image_path": "/suits/mark-47.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/f/f3/Iron_Man_Armor_-_Mark_XLVII.png/revision/latest/scale-to-width-down/600?cb=20170703052625",
     "legacy_trail": []
   },
   {
@@ -2537,7 +2537,7 @@
       "vibranium_laced": false
     },
     "lore": "A transitional suit bridging conventional construction and Tony's nanotech research. Worn briefly before Tony completed the Mark L's nanotech integration.",
-    "image_path": "/suits/mark-48.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/5/5f/Iron_Man_Armor_-_Mark_XLVIII.png/revision/latest/scale-to-width-down/600?cb=20180526010541",
     "legacy_trail": []
   },
   {
@@ -2590,7 +2590,7 @@
       "vibranium_laced": false
     },
     "lore": "The first suit to incorporate partial nanotechnology, the Mark XLIX was a proof-of-concept for the fully nano-integrated Mark L that followed.",
-    "image_path": "/suits/mark-49.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/7/7a/Iron_Man_Armor_-_Mark_XLIX.png/revision/latest/scale-to-width-down/600?cb=20190525040505",
     "legacy_trail": []
   },
   {
@@ -2649,7 +2649,7 @@
       "vibranium_laced": false
     },
     "lore": "Stored entirely within Tony's arc reactor chest piece, the Mark L deploys as a wave of nanobots that assemble the suit around him in under a second. It can reconfigure into any weapon or tool on demand. Sustained heavy damage from Thanos on Titan.",
-    "image_path": "/suits/mark-50.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/a/a0/Iron_Man_Armor_-_Mark_L.png/revision/latest/scale-to-width-down/600?cb=20180318221316",
     "legacy_trail": []
   },
   {
@@ -3194,7 +3194,7 @@
       "vibranium_laced": true
     },
     "lore": "Tony's penultimate pre-Endgame design, the Sentinel achieved near-perfect AI-suit symbiosis. Five years of quiet engineering converging toward one final design.",
-    "image_path": "/suits/mark-80.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/5/5e/Iron_Man_Mark_LXXX.png/revision/latest/scale-to-width-down/600?cb=20250107234608",
     "legacy_trail": []
   },
   {
@@ -3254,7 +3254,7 @@
       "vibranium_laced": true
     },
     "lore": "Tony Stark's final suit. Built across five years of retirement, the Mark LXXXV incorporated vibranium-nanotech composites and housed a custom Infinity Gauntlet. Tony used it to undo Thanos's snap — and sacrificed his life to do it.",
-    "image_path": "/suits/mark-85.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/f/f2/Iron_Man_Armor_-_Mark_LXXXV.png/revision/latest/scale-to-width-down/600?cb=20190401222437",
     "legacy_trail": []
   },
   {
@@ -3310,7 +3310,7 @@
       "vibranium_laced": false
     },
     "lore": "James Rhodes appropriated Tony's Mark II and had it retrofitted by Justin Hammer with a weapons platform: minigun, missile batteries, and military-grade firepower. The birth of War Machine.",
-    "image_path": "/suits/war-machine-1.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/7/78/War_Machine_Armor_-_Mark_I.png/revision/latest/scale-to-width-down/600?cb=20151218173900",
     "legacy_trail": []
   },
   {
@@ -3365,7 +3365,7 @@
       "vibranium_laced": false
     },
     "lore": "The War Machine armour repainted in red, white, and blue as a PR rebranding exercise by the US government. Hijacked by Aldrich Killian's Extremis soldiers to abduct the President.",
-    "image_path": "/suits/iron-patriot.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/9f/Iron_Patriot_Armor.webp/revision/latest/scale-to-width-down/600?cb=20201206045241",
     "legacy_trail": []
   },
   {
@@ -3420,7 +3420,7 @@
       "vibranium_laced": false
     },
     "lore": "A fully redesigned War Machine with upgraded weapons systems and improved manoeuvrability. Severely damaged in Civil War when Vision accidentally shot it down during the airport battle.",
-    "image_path": "/suits/war-machine-2.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/b/b8/War_Machine_Armor_-_Mark_II.png/revision/latest/scale-to-width-down/600?cb=20170425011315",
     "legacy_trail": []
   },
   {
@@ -3473,7 +3473,7 @@
       "vibranium_laced": false
     },
     "lore": "The same Mark III saw Rhodes through his rehabilitation after Civil War. Tony built Rhodey an exoskeleton to help him walk again — a debt repaid in iron.",
-    "image_path": "/suits/war-machine-3.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/8/8c/War_Machine_Armor_-_Mark_III.png/revision/latest/scale-to-width-down/600?cb=20160329140252",
     "legacy_trail": []
   },
   {
@@ -3529,7 +3529,7 @@
       "vibranium_laced": false
     },
     "lore": "The War Machine suit upgraded with partial nanotech construction, giving Rhodes on-demand weapons reconfiguration. Fought in the Battle of Wakanda against Thanos's army.",
-    "image_path": "/suits/war-machine-4.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/2/22/War_Machine_Armor_-_Mark_IV.png/revision/latest/scale-to-width-down/600?cb=20181230180717",
     "legacy_trail": []
   },
   {
@@ -3585,7 +3585,7 @@
       "vibranium_laced": false
     },
     "lore": "The Mark VI brought Rhodey's War Machine into the nanotech era with full weapons reconfiguration. Fought in the final battle against 2014-Thanos's army at the destroyed Avengers compound.",
-    "image_path": "/suits/war-machine-6.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/1/17/War_Machine_Armor_-_Mark_VI.png/revision/latest/scale-to-width-down/600?cb=20190423184818",
     "legacy_trail": []
   },
   {
@@ -3641,7 +3641,7 @@
       "vibranium_laced": false
     },
     "lore": "Built by Tony for Pepper Potts — gold and rose-gold nanotech with a focus on protection and rescue over firepower. Pepper wore it in the final battle against Thanos, declaring herself Rescue.",
-    "image_path": "/suits/rescue.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/8/86/Rescue_Armor_Endgame.jpg/revision/latest/scale-to-width-down/600?cb=20190510170855",
     "legacy_trail": []
   },
   {
@@ -3692,7 +3692,7 @@
       "vibranium_laced": false
     },
     "lore": "Tony's first dedicated stealth suit, built in 1981 for covert infiltration. Radar-absorbent plating and a suppressed power signature made it near-invisible to Cold War detection systems.",
-    "image_path": "/suits/stealth-1.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/6/63/Stealth_Armor.png/revision/latest/scale-to-width-down/600?cb=20240121211720",
     "legacy_trail": []
   },
   {
@@ -3744,7 +3744,7 @@
       "vibranium_laced": false
     },
     "lore": "A significant evolution of the stealth concept, the Mark II introduced active camouflage — bending light around the suit's surface for near-visual invisibility.",
-    "image_path": "/suits/stealth-2.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/6/63/Stealth_Armor.png/revision/latest/scale-to-width-down/600?cb=20240121211720",
     "legacy_trail": []
   },
   {
@@ -3798,7 +3798,7 @@
       "vibranium_laced": false
     },
     "lore": "The pinnacle of pre-nanotech stealth engineering. The Mark III suppressed radar, sonar, thermal, and optical signatures simultaneously — effectively a ghost in the machine.",
-    "image_path": "/suits/stealth-3.png",
+    "image_path": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/6/63/Stealth_Armor.png/revision/latest/scale-to-width-down/600?cb=20240121211720",
     "legacy_trail": []
   },
   {

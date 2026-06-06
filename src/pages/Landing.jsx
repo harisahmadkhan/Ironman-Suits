@@ -4,9 +4,20 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronRight } from 'lucide-react'
 import suits from '@/data/suits.json'
 
-const LINE1 = 'STARK INDUSTRIES — SUIT ARCHIVE v8.5'
+const LINE1 = 'STARK INDUSTRIES — SUIT ARCHIVE'
 const TAGLINE_WORDS = ['GENIUS.', 'BILLIONAIRE.', 'PLAYBOY.', 'PHILANTHROPIST.', 'FUTURIST.']
 const SUIT_COUNT = suits.length
+
+const STATUS_LINES = [
+  { label: 'POWER SYSTEMS',      value: 'ONLINE',              ok: true  },
+  { label: 'ARC REACTOR',        value: '3.00 GJ/s',           ok: true  },
+  { label: 'REPULSOR DRIVE',     value: 'CALIBRATED',          ok: true  },
+  { label: 'AI CORE',            value: 'LOADING...',          ok: false },
+  { label: 'SUIT DATABASE',      value: `${SUIT_COUNT} SUITS`, ok: true  },
+  { label: 'NEURAL INTERFACE',   value: 'LINKED',              ok: true  },
+  { label: 'THREAT ASSESSMENT',  value: 'CLEAR',               ok: true  },
+  { label: 'AI CORE',            value: 'READY',               ok: true  },
+]
 
 // Stable particle positions (deterministic, no Math.random on render)
 const PARTICLES = Array.from({ length: 45 }, (_, i) => ({
@@ -20,72 +31,69 @@ const PARTICLES = Array.from({ length: 45 }, (_, i) => ({
 
 function ArcReactor({ pulse, size = 'sm' }) {
   const dim = size === 'lg' ? 'w-56 h-56' : 'w-20 h-20'
-  const sw = size === 'lg' ? 1.2 : 0.8
+  // 6 trapezoidal coil blades — faithful to the Mark I prop
+  const blades = [0,60,120,180,240,300].map((deg) => {
+    const rad = (deg * Math.PI) / 180
+    const half = 24 * Math.PI / 180
+    const r1 = 33, r2 = 62
+    const x1 = 100 + Math.cos(rad - half) * r1
+    const y1 = 100 + Math.sin(rad - half) * r1
+    const x2 = 100 + Math.cos(rad + half) * r1
+    const y2 = 100 + Math.sin(rad + half) * r1
+    const x3 = 100 + Math.cos(rad + half) * r2
+    const y3 = 100 + Math.sin(rad + half) * r2
+    const x4 = 100 + Math.cos(rad - half) * r2
+    const y4 = 100 + Math.sin(rad - half) * r2
+    return `${x1},${y1} ${x2},${y2} ${x3},${y3} ${x4},${y4}`
+  })
+
   return (
-    <svg
-      viewBox="0 0 200 200"
-      className={dim}
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      {/* Outer glow rings */}
-      <circle cx="100" cy="100" r="96" stroke="#00D4FF" strokeWidth={sw * 0.6} strokeOpacity="0.15" />
-      <circle cx="100" cy="100" r="88" stroke="#00D4FF" strokeWidth={sw * 0.8} strokeOpacity="0.25" />
-      <circle cx="100" cy="100" r="78" stroke="#00D4FF" strokeWidth={sw * 0.6} strokeOpacity="0.2" />
+    <svg viewBox="0 0 200 200" className={dim} fill="none" xmlns="http://www.w3.org/2000/svg">
+      {/* Outer housing disc */}
+      <circle cx="100" cy="100" r="97" fill="#080c14" stroke="#1c2c42" strokeWidth="2.5" />
+      {/* Outer rim glow */}
+      <circle cx="100" cy="100" r="90" stroke="#3a7aaa" strokeWidth="3.5" strokeOpacity="0.7" />
+      <circle cx="100" cy="100" r="87" stroke="#55aadd" strokeWidth="1" strokeOpacity="0.35" />
 
-      {/* Outer hex ring detail marks */}
-      {[0,30,60,90,120,150,180,210,240,270,300,330].map((deg) => {
-        const rad = (deg * Math.PI) / 180
-        const x1 = 100 + Math.cos(rad) * 84
-        const y1 = 100 + Math.sin(rad) * 84
-        const x2 = 100 + Math.cos(rad) * 90
-        const y2 = 100 + Math.sin(rad) * 90
-        return <line key={deg} x1={x1} y1={y1} x2={x2} y2={y2} stroke="#00D4FF" strokeWidth={sw * 0.8} strokeOpacity="0.5" />
-      })}
+      {/* 6 coil blade sections */}
+      {blades.map((pts, i) => (
+        <polygon key={i} points={pts}
+          fill="#1a3a5c" stroke="#4499cc" strokeWidth="1.2"
+          fillOpacity="0.85" strokeOpacity="0.9" />
+      ))}
 
-      {/* Mid ring */}
-      <circle cx="100" cy="100" r="62" stroke="#00D4FF" strokeWidth={sw * 1.2} strokeOpacity="0.35" />
-
-      {/* Triangular core (original arc reactor triangle) */}
-      <polygon
-        points="100,48 148,132 52,132"
-        stroke="#00D4FF"
-        strokeWidth={sw * 1.5}
-        strokeOpacity="0.85"
-        fill="rgba(0,212,255,0.06)"
-      />
-
-      {/* Inner spokes — 6 */}
+      {/* Thin separator lines between blades */}
       {[0,60,120,180,240,300].map((deg) => {
         const rad = (deg * Math.PI) / 180
-        const x1 = 100 + Math.cos(rad) * 28
-        const y1 = 100 + Math.sin(rad) * 28
-        const x2 = 100 + Math.cos(rad) * 48
-        const y2 = 100 + Math.sin(rad) * 48
-        return <line key={deg} x1={x1} y1={y1} x2={x2} y2={y2} stroke="#00D4FF" strokeWidth={sw * 1.2} strokeOpacity="0.6" />
+        const sx = 100 + Math.cos(rad + 24 * Math.PI/180) * 33
+        const sy = 100 + Math.sin(rad + 24 * Math.PI/180) * 33
+        const ex = 100 + Math.cos(rad + 24 * Math.PI/180) * 62
+        const ey = 100 + Math.sin(rad + 24 * Math.PI/180) * 62
+        return <line key={deg} x1={sx} y1={sy} x2={ex} y2={ey} stroke="#080c14" strokeWidth="2.5" />
       })}
 
-      {/* Inner ring */}
-      <circle cx="100" cy="100" r="26" stroke="#00D4FF" strokeWidth={sw * 1.4} strokeOpacity="0.5" />
+      {/* Inner ring housing */}
+      <circle cx="100" cy="100" r="32" fill="#060a10" stroke="#3388bb" strokeWidth="2.5" strokeOpacity="0.9" />
+      <circle cx="100" cy="100" r="28" stroke="#66bbee" strokeWidth="0.8" strokeOpacity="0.5" />
 
-      {/* Center glow layers */}
-      <circle cx="100" cy="100" r="18" fill="#00D4FF" fillOpacity="0.12" />
-      <circle cx="100" cy="100" r="12" fill="#00D4FF" fillOpacity="0.35" />
-      <circle cx="100" cy="100" r="7"  fill="#00D4FF" fillOpacity="0.75" />
-      <circle cx="100" cy="100" r="4"  fill="white"   fillOpacity="0.95" />
+      {/* Blue core glow — layered */}
+      <circle cx="100" cy="100" r="25" fill="#0044aa" fillOpacity="0.6" />
+      <circle cx="100" cy="100" r="19" fill="#0066cc" fillOpacity="0.75" />
+      <circle cx="100" cy="100" r="13" fill="#44aaff" fillOpacity="0.85" />
+      <circle cx="100" cy="100" r="7"  fill="#aaddff" fillOpacity="0.95" />
+      <circle cx="100" cy="100" r="3"  fill="white"   fillOpacity="1" />
 
-      {/* Pulse rings */}
+      {/* Ambient outer glow ring */}
+      <circle cx="100" cy="100" r="90" stroke="#55ccff" strokeWidth="8" strokeOpacity="0.06" />
+
       {pulse && (
         <>
-          <circle cx="100" cy="100" r="18" fill="#00D4FF" fillOpacity="0">
-            <animate attributeName="r" values="18;50;18" dur="2.2s" repeatCount="indefinite" />
-            <animate attributeName="fill-opacity" values="0.35;0;0.35" dur="2.2s" repeatCount="indefinite" />
+          <circle cx="100" cy="100" r="19" fill="#33aaff" fillOpacity="0">
+            <animate attributeName="r" values="19;55;19" dur="2.4s" repeatCount="indefinite" />
+            <animate attributeName="fill-opacity" values="0.4;0;0.4" dur="2.4s" repeatCount="indefinite" />
           </circle>
-          <circle cx="100" cy="100" r="78" stroke="#00D4FF" strokeWidth={sw * 1.5} strokeOpacity="0">
-            <animate attributeName="stroke-opacity" values="0;0.5;0" dur="2.2s" repeatCount="indefinite" />
-          </circle>
-          <circle cx="100" cy="100" r="96" stroke="#00D4FF" strokeWidth={sw} strokeOpacity="0">
-            <animate attributeName="stroke-opacity" values="0;0.25;0" dur="2.2s" begin="0.4s" repeatCount="indefinite" />
+          <circle cx="100" cy="100" r="90" stroke="#55aaff" strokeWidth="4" strokeOpacity="0">
+            <animate attributeName="stroke-opacity" values="0;0.45;0" dur="2.4s" repeatCount="indefinite" />
           </circle>
         </>
       )}
@@ -96,18 +104,17 @@ function ArcReactor({ pulse, size = 'sm' }) {
 export default function Landing() {
   const navigate = useNavigate()
 
-  // boot phases: 0=black 1=arc reactor 2=typing-line1 3=typing-line2 4=hero
+  // boot phases: 0=black 1=reactor 2=status-stream 3=jarvis-online 4=hero
   const [bootPhase, setBootPhase] = useState(0)
-  const [line1, setLine1] = useState('')
-  const [line2, setLine2] = useState('')
+  const [line1, setLine1]         = useState('')
+  const [statusIdx, setStatusIdx] = useState(-1)   // which status line is visible
+  const [jarvisOnline, setJarvisOnline] = useState(false)
   const [taglineIdx, setTaglineIdx] = useState(-1)
   const [showTip, setShowTip] = useState(false)
   const [mouse, setMouse] = useState({ x: 0, y: 0 })
 
-  // Master boot sequence — sequential async
   useEffect(() => {
     let cancelled = false
-
     const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
     const typeText = (text, setState, charDelay = 38) =>
@@ -126,32 +133,34 @@ export default function Landing() {
     const boot = async () => {
       await sleep(250)
       if (cancelled) return
-      setBootPhase(1)              // arc reactor appears
+      setBootPhase(1)                        // arc reactor
 
-      await sleep(1600)
+      await sleep(1400)
       if (cancelled) return
-      setBootPhase(2)              // start typing line 1
-
-      await typeText(LINE1, setLine1)
-      if (cancelled) return
-
-      await sleep(280)
-      setBootPhase(3)              // start typing line 2
-
-      await typeText(
-        `JARVIS ONLINE. [${SUIT_COUNT}] SUITS CATALOGUED.`,
-        setLine2,
-        36
-      )
+      setBootPhase(2)                        // type header line
+      await typeText(LINE1, setLine1, 32)
       if (cancelled) return
 
-      await sleep(380)
-      setBootPhase(4)              // reveal hero
+      await sleep(200)
+                                             // rapid status stream
+      for (let i = 0; i < STATUS_LINES.length; i++) {
+        if (cancelled) return
+        setStatusIdx(i)
+        await sleep(i === 3 ? 320 : 140)    // slight pause on "AI CORE LOADING"
+      }
+
+      await sleep(400)
+      if (cancelled) return
+      setBootPhase(3)                        // JARVIS ONLINE flash
+      setJarvisOnline(true)
+
+      await sleep(1000)
+      if (cancelled) return
+      setBootPhase(4)                        // hero
 
       await sleep(2200)
       if (cancelled) return
       setShowTip(true)
-
       await sleep(5000)
       if (cancelled) return
       setShowTip(false)
@@ -236,20 +245,67 @@ export default function Landing() {
               )}
             </AnimatePresence>
 
-            {/* Boot text lines */}
-            <div className="font-mono-ui text-sm text-center space-y-2 min-h-[3rem] px-6">
+            {/* Boot text */}
+            <div className="font-mono-ui text-center px-6 w-full max-w-md">
+              {/* Header line */}
               {line1 && (
-                <p className="text-[#00D4FF] tracking-widest">
-                  {line1}
-                  {bootPhase === 2 && <span className="blink-cursor ml-0.5" />}
+                <p className="text-[10px] text-[#00D4FF] tracking-[0.25em] mb-4 opacity-60">
+                  {line1}{bootPhase === 2 && <span className="blink-cursor ml-0.5" />}
                 </p>
               )}
-              {line2 && (
-                <p className="text-text-secondary tracking-wider">
-                  {line2}
-                  <span className="blink-cursor ml-0.5" />
-                </p>
+
+              {/* Status stream */}
+              {bootPhase >= 2 && !jarvisOnline && (
+                <div className="space-y-[3px] text-left">
+                  {STATUS_LINES.map((s, i) => (
+                    <motion.div
+                      key={i}
+                      initial={{ opacity: 0, x: -8 }}
+                      animate={statusIdx >= i ? { opacity: 1, x: 0 } : { opacity: 0, x: -8 }}
+                      transition={{ duration: 0.12 }}
+                      className="flex items-center justify-between gap-4"
+                    >
+                      <span className="text-[10px] text-[#7A8FA6] tracking-widest">{s.label}</span>
+                      <span className="flex items-center gap-1.5">
+                        <span
+                          className="w-1 h-1 rounded-full flex-shrink-0"
+                          style={{ background: s.ok ? '#00FF88' : '#FFB800' }}
+                        />
+                        <span
+                          className="text-[10px] tracking-wider"
+                          style={{ color: s.ok ? '#00FF88' : '#FFB800' }}
+                        >
+                          {s.value}
+                        </span>
+                      </span>
+                    </motion.div>
+                  ))}
+                </div>
               )}
+
+              {/* J.A.R.V.I.S. ONLINE flash */}
+              <AnimatePresence>
+                {jarvisOnline && bootPhase === 3 && (
+                  <motion.div
+                    key="jarvis"
+                    initial={{ opacity: 0, scale: 0.92 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.25, ease: 'easeOut' }}
+                    className="mt-2"
+                  >
+                    <p
+                      className="font-display text-2xl tracking-[0.35em] text-[#00FF88]"
+                      style={{ textShadow: '0 0 24px rgba(0,255,136,0.8), 0 0 48px rgba(0,255,136,0.4)' }}
+                    >
+                      J.A.R.V.I.S. ONLINE
+                    </p>
+                    <p className="text-[9px] text-[#00FF88] opacity-60 tracking-[0.2em] mt-1">
+                      {SUIT_COUNT} SUITS CATALOGUED
+                    </p>
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
           </motion.div>
         )}
@@ -266,38 +322,22 @@ export default function Landing() {
             className="relative z-10 flex flex-col items-center justify-center h-full min-h-screen"
             style={{ paddingTop: '2rem', paddingBottom: '4rem' }}
           >
-            {/* Suit silhouette with parallax */}
+            {/* Arc reactor hero — parallax */}
             <motion.div
               animate={{ x: mouse.x, y: mouse.y }}
               transition={{ type: 'spring', stiffness: 60, damping: 20 }}
-              className="relative mb-8 w-52 h-72"
+              className="relative mb-8 flex items-center justify-center"
             >
-              {/* Ambient glow */}
+              {/* Ambient glow behind reactor */}
               <div
-                className="absolute inset-0 pointer-events-none"
+                className="absolute pointer-events-none"
                 style={{
-                  background: 'radial-gradient(ellipse at center, rgba(0,212,255,0.18) 0%, transparent 65%)',
-                  filter: 'blur(24px)',
-                  transform: 'scale(1.4)',
+                  width: 280, height: 280,
+                  background: 'radial-gradient(ellipse at center, rgba(0,150,255,0.22) 0%, transparent 65%)',
+                  filter: 'blur(32px)',
                 }}
               />
-              {/* Suit image (floats, hides gracefully if 404) */}
-              <img
-                src="/suits/mark-85.png"
-                alt="Iron Man Mark LXXXV"
-                className="relative z-10 w-full h-full object-contain float"
-                style={{ filter: 'drop-shadow(0 0 24px rgba(0,212,255,0.35))' }}
-                onError={(e) => {
-                  // Fallback: show arc reactor shape placeholder
-                  e.currentTarget.style.display = 'none'
-                  e.currentTarget.nextSibling.style.display = 'flex'
-                }}
-              />
-              {/* Fallback: arc reactor */}
-              <div
-                className="absolute inset-0 z-10 items-center justify-center float hidden"
-                style={{ display: 'none' }}
-              >
+              <div className="relative z-10 float">
                 <ArcReactor pulse size="lg" />
               </div>
             </motion.div>

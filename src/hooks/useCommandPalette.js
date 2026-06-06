@@ -71,9 +71,10 @@ export function useCommandPalette() {
       closePalette()
       return
     }
-    const { type, path, filterType, value, slugs } = parsed
-    if (type === 'navigate')  { navigate(path); closePalette() }
-    if (type === 'filter')    { navigate(`/armory?${filterType}=${encodeURIComponent(value)}`); closePalette() }
+    const { type, path, filterType, value, slugs, egg } = parsed
+    if (type === 'navigate')                        { navigate(path); closePalette() }
+    if (type === 'filter')                          { navigate(`/armory?${filterType}=${encodeURIComponent(value)}`); closePalette() }
+    if (type === 'easter-egg' && egg === 'jarvis')  { navigate('/armory?jarvis=1'); closePalette() }
     if (type === 'compare')   {
       const ids = slugs.map((s) => suits.find((suit) => suit.id.includes(s) || suit.designation.toLowerCase().includes(s))?.id).filter(Boolean)
       if (ids.length) { navigate(`/compare?suits=${ids.join(',')}`); closePalette() }

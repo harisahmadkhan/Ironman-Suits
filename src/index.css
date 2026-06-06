@@ -132,6 +132,21 @@ html, body {
 ::-webkit-scrollbar-thumb  { background: rgba(0,212,255,0.3); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: rgba(0,212,255,0.6); }
 
+/* ── Reduced Motion ─────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .arc-pulse-ring,
+  .float,
+  .scan-hover::after,
+  .blink-cursor::after {
+    animation: none !important;
+  }
+}
+
 /* ── Utility ────────────────────────────────────────────────── */
 .font-display { font-family: 'Orbitron', sans-serif; }
 .font-mono-ui  { font-family: 'JetBrains Mono', monospace; }

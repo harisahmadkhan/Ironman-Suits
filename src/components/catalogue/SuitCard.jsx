@@ -134,7 +134,7 @@ export default function SuitCard({ suit, compareMode = false, isSelected = false
         src={suit.image_path}
         alt={suit.designation}
         className="absolute inset-0 w-full h-full object-contain transition-transform duration-500 group-hover:scale-108 p-4"
-        style={{ filter: `drop-shadow(0 4px 20px ${suit.color_primary || '#C0392B'}66)` }}
+        style={{ mixBlendMode: 'screen', filter: `drop-shadow(0 4px 20px ${suit.color_primary || '#C0392B'}66)` }}
         onError={(e) => {
           e.currentTarget.style.display = 'none'
           const fb = e.currentTarget.nextElementSibling

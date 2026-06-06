@@ -31,69 +31,60 @@ const PARTICLES = Array.from({ length: 45 }, (_, i) => ({
 
 function ArcReactor({ pulse, size = 'sm' }) {
   const dim = size === 'lg' ? 'w-56 h-56' : 'w-20 h-20'
-  // 6 trapezoidal coil blades — faithful to the Mark I prop
-  const blades = [0,60,120,180,240,300].map((deg) => {
-    const rad = (deg * Math.PI) / 180
-    const half = 24 * Math.PI / 180
-    const r1 = 33, r2 = 62
-    const x1 = 100 + Math.cos(rad - half) * r1
-    const y1 = 100 + Math.sin(rad - half) * r1
-    const x2 = 100 + Math.cos(rad + half) * r1
-    const y2 = 100 + Math.sin(rad + half) * r1
-    const x3 = 100 + Math.cos(rad + half) * r2
-    const y3 = 100 + Math.sin(rad + half) * r2
-    const x4 = 100 + Math.cos(rad - half) * r2
-    const y4 = 100 + Math.sin(rad - half) * r2
+  // 12 trapezoidal segments arranged in a ring — matches the Iron Man 1 prop
+  const segments = Array.from({ length: 12 }, (_, i) => {
+    const angle = (i * 30) * Math.PI / 180
+    const half  = 11 * Math.PI / 180   // each segment spans ~22°, gap ~8°
+    const r1 = 38, r2 = 72
+    const x1 = 100 + Math.cos(angle - half) * r1
+    const y1 = 100 + Math.sin(angle - half) * r1
+    const x2 = 100 + Math.cos(angle + half) * r1
+    const y2 = 100 + Math.sin(angle + half) * r1
+    const x3 = 100 + Math.cos(angle + half) * r2
+    const y3 = 100 + Math.sin(angle + half) * r2
+    const x4 = 100 + Math.cos(angle - half) * r2
+    const y4 = 100 + Math.sin(angle - half) * r2
     return `${x1},${y1} ${x2},${y2} ${x3},${y3} ${x4},${y4}`
   })
 
   return (
     <svg viewBox="0 0 200 200" className={dim} fill="none" xmlns="http://www.w3.org/2000/svg">
-      {/* Outer housing disc */}
-      <circle cx="100" cy="100" r="97" fill="#080c14" stroke="#1c2c42" strokeWidth="2.5" />
-      {/* Outer rim glow */}
-      <circle cx="100" cy="100" r="90" stroke="#3a7aaa" strokeWidth="3.5" strokeOpacity="0.7" />
-      <circle cx="100" cy="100" r="87" stroke="#55aadd" strokeWidth="1" strokeOpacity="0.35" />
+      <defs>
+        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="4" result="blur" />
+          <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+        </filter>
+        <filter id="centerglow" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="10" result="blur" />
+          <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+        </filter>
+        <radialGradient id="seggrad" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stopColor="#aaddff" />
+          <stop offset="100%" stopColor="#33aaff" />
+        </radialGradient>
+      </defs>
 
-      {/* 6 coil blade sections */}
-      {blades.map((pts, i) => (
+      {/* 12 glowing segments */}
+      {segments.map((pts, i) => (
         <polygon key={i} points={pts}
-          fill="#1a3a5c" stroke="#4499cc" strokeWidth="1.2"
-          fillOpacity="0.85" strokeOpacity="0.9" />
+          fill="url(#seggrad)" filter="url(#glow)"
+          fillOpacity="0.95" />
       ))}
 
-      {/* Thin separator lines between blades */}
-      {[0,60,120,180,240,300].map((deg) => {
-        const rad = (deg * Math.PI) / 180
-        const sx = 100 + Math.cos(rad + 24 * Math.PI/180) * 33
-        const sy = 100 + Math.sin(rad + 24 * Math.PI/180) * 33
-        const ex = 100 + Math.cos(rad + 24 * Math.PI/180) * 62
-        const ey = 100 + Math.sin(rad + 24 * Math.PI/180) * 62
-        return <line key={deg} x1={sx} y1={sy} x2={ex} y2={ey} stroke="#080c14" strokeWidth="2.5" />
-      })}
-
-      {/* Inner ring housing */}
-      <circle cx="100" cy="100" r="32" fill="#060a10" stroke="#3388bb" strokeWidth="2.5" strokeOpacity="0.9" />
-      <circle cx="100" cy="100" r="28" stroke="#66bbee" strokeWidth="0.8" strokeOpacity="0.5" />
-
-      {/* Blue core glow — layered */}
-      <circle cx="100" cy="100" r="25" fill="#0044aa" fillOpacity="0.6" />
-      <circle cx="100" cy="100" r="19" fill="#0066cc" fillOpacity="0.75" />
-      <circle cx="100" cy="100" r="13" fill="#44aaff" fillOpacity="0.85" />
-      <circle cx="100" cy="100" r="7"  fill="#aaddff" fillOpacity="0.95" />
-      <circle cx="100" cy="100" r="3"  fill="white"   fillOpacity="1" />
-
-      {/* Ambient outer glow ring */}
-      <circle cx="100" cy="100" r="90" stroke="#55ccff" strokeWidth="8" strokeOpacity="0.06" />
+      {/* Bright center glow */}
+      <circle cx="100" cy="100" r="30" fill="#55bbff" fillOpacity="0.3" filter="url(#centerglow)" />
+      <circle cx="100" cy="100" r="22" fill="#88ccff" fillOpacity="0.6" />
+      <circle cx="100" cy="100" r="15" fill="#bbddff" fillOpacity="0.85" />
+      <circle cx="100" cy="100" r="9"  fill="white"   fillOpacity="0.95" />
 
       {pulse && (
         <>
-          <circle cx="100" cy="100" r="19" fill="#33aaff" fillOpacity="0">
-            <animate attributeName="r" values="19;55;19" dur="2.4s" repeatCount="indefinite" />
-            <animate attributeName="fill-opacity" values="0.4;0;0.4" dur="2.4s" repeatCount="indefinite" />
+          <circle cx="100" cy="100" r="22" fill="#55aaff" fillOpacity="0">
+            <animate attributeName="r"            values="22;70;22"   dur="2.4s" repeatCount="indefinite" />
+            <animate attributeName="fill-opacity" values="0.35;0;0.35" dur="2.4s" repeatCount="indefinite" />
           </circle>
-          <circle cx="100" cy="100" r="90" stroke="#55aaff" strokeWidth="4" strokeOpacity="0">
-            <animate attributeName="stroke-opacity" values="0;0.45;0" dur="2.4s" repeatCount="indefinite" />
+          <circle cx="100" cy="100" r="72" stroke="#55ccff" strokeWidth="3" strokeOpacity="0">
+            <animate attributeName="stroke-opacity" values="0;0.5;0" dur="2.4s" repeatCount="indefinite" />
           </circle>
         </>
       )}

@@ -1,0 +1,4350 @@
+[
+  {
+    "id": "mark-1",
+    "designation": "MARK I",
+    "nickname": "The Cave",
+    "era": "origin",
+    "scope": "both",
+    "year_built_canonical": 2010,
+    "status": "destroyed",
+    "first_appearance": "Iron Man (2008)",
+    "films": [
+      "Iron Man (2008)"
+    ],
+    "comics_appearances": [
+      "Tales of Suspense #39 (1963)"
+    ],
+    "materials": [
+      "Salvaged Military Hardware",
+      "Scrap Metal",
+      "Crude Titanium Alloy"
+    ],
+    "power_source": "Miniaturized Arc Reactor (Prototype)",
+    "color_primary": "#5C5C5C",
+    "color_secondary": "#3A3A3A",
+    "max_speed_mach": 0.3,
+    "max_altitude_ft": 5000,
+    "weight_kg": 90,
+    "stats": {
+      "durability": 55,
+      "speed": 25,
+      "firepower": 40,
+      "maneuverability": 20,
+      "ai_systems": 10,
+      "stealth": 10
+    },
+    "capabilities": [
+      "rocket-propulsion",
+      "flamethrowers",
+      "basic-armor"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": false,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "Built in a cave in Afghanistan from salvaged Stark Industries weapons, the Mark I was Tony's desperate bid for survival. Crude and heavy — it was the seed of everything that followed.",
+    "image_path": "/suits/mark-1.png",
+    "legacy_trail": [
+      {
+        "label": "No flight stabilizers",
+        "led_to": "mark-2",
+        "note": "First true flight"
+      },
+      {
+        "label": "Bulk & manual assembly",
+        "led_to": "mark-5",
+        "note": "Briefcase form factor"
+      },
+      {
+        "label": "External plating",
+        "led_to": "mark-50",
+        "note": "Nanotech self-assembly"
+      }
+    ]
+  },
+  {
+    "id": "mark-2",
+    "designation": "MARK II",
+    "nickname": "Silver Steel",
+    "era": "origin",
+    "scope": "both",
+    "year_built_canonical": 2010,
+    "status": "decommissioned",
+    "first_appearance": "Iron Man (2008)",
+    "films": [
+      "Iron Man (2008)",
+      "Iron Man 2 (2010)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Hardened Titanium Alloy",
+      "Carbon Fiber"
+    ],
+    "power_source": "Arc Reactor Mark I",
+    "color_primary": "#C0C0C0",
+    "color_secondary": "#A0A0A0",
+    "max_speed_mach": 0.8,
+    "max_altitude_ft": 40000,
+    "weight_kg": 25,
+    "stats": {
+      "durability": 60,
+      "speed": 75,
+      "firepower": 30,
+      "maneuverability": 70,
+      "ai_systems": 40,
+      "stealth": 35
+    },
+    "capabilities": [
+      "repulsors",
+      "flight",
+      "hud",
+      "autopilot"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "The first full-flight suit, built in Tony's Malibu workshop. It proved the concept of repulsor-driven flight but iced up at altitude — a flaw that drove every suit that followed.",
+    "image_path": "/suits/mark-2.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-3",
+    "designation": "MARK III",
+    "nickname": "The Classic",
+    "era": "origin",
+    "scope": "both",
+    "year_built_canonical": 2010,
+    "status": "destroyed",
+    "first_appearance": "Iron Man (2008)",
+    "films": [
+      "Iron Man (2008)",
+      "Iron Man 2 (2010)"
+    ],
+    "comics_appearances": [
+      "Iron Man Vol 1 #128 (1979)"
+    ],
+    "materials": [
+      "Titanium-Gold Alloy",
+      "Carbon Fiber Composites"
+    ],
+    "power_source": "Arc Reactor Mark I",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 2,
+    "max_altitude_ft": 35000,
+    "weight_kg": 25,
+    "stats": {
+      "durability": 72,
+      "speed": 65,
+      "firepower": 70,
+      "maneuverability": 68,
+      "ai_systems": 55,
+      "stealth": 20
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "autopilot",
+      "flares"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "The first fully combat-ready suit and the template for all that followed. Its iconic red and gold palette became synonymous with Iron Man.",
+    "image_path": "/suits/mark-3.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-4",
+    "designation": "MARK IV",
+    "nickname": "Refined Classic",
+    "era": "development",
+    "scope": "mcu",
+    "year_built_canonical": 2011,
+    "status": "decommissioned",
+    "first_appearance": "Iron Man 2 (2010)",
+    "films": [
+      "Iron Man 2 (2010)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Titanium-Gold Alloy",
+      "Improved Carbon Composites"
+    ],
+    "power_source": "Arc Reactor Mark I (Degrading)",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 2.2,
+    "max_altitude_ft": 38000,
+    "weight_kg": 24,
+    "stats": {
+      "durability": 74,
+      "speed": 68,
+      "firepower": 72,
+      "maneuverability": 70,
+      "ai_systems": 60,
+      "stealth": 20
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "autopilot",
+      "flares"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "An iterative refinement of the Mark III, worn while Tony was being slowly poisoned by his own arc reactor. It served as his primary suit during the Hammer Expo attack.",
+    "image_path": "/suits/mark-4.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-5",
+    "designation": "MARK V",
+    "nickname": "The Suitcase",
+    "era": "development",
+    "scope": "both",
+    "year_built_canonical": 2011,
+    "status": "decommissioned",
+    "first_appearance": "Iron Man 2 (2010)",
+    "films": [
+      "Iron Man 2 (2010)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Lightweight Titanium",
+      "High-Density Aluminum Alloy"
+    ],
+    "power_source": "Arc Reactor Mark I",
+    "color_primary": "#C0392B",
+    "color_secondary": "#C0C0C0",
+    "max_speed_mach": 2.5,
+    "max_altitude_ft": 32000,
+    "weight_kg": 18,
+    "stats": {
+      "durability": 65,
+      "speed": 72,
+      "firepower": 65,
+      "maneuverability": 75,
+      "ai_systems": 58,
+      "stealth": 25
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "flight",
+      "hud",
+      "rapid-deploy"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "Designed for portability, the Mark V folds into a briefcase and deploys in seconds. A sacrifice in durability for unmatched accessibility.",
+    "image_path": "/suits/mark-5.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-6",
+    "designation": "MARK VI",
+    "nickname": "The Triangle",
+    "era": "development",
+    "scope": "mcu",
+    "year_built_canonical": 2011,
+    "status": "decommissioned",
+    "first_appearance": "Iron Man 2 (2010)",
+    "films": [
+      "Iron Man 2 (2010)",
+      "The Avengers (2012)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Titanium-Gold Alloy",
+      "Vibranium-Derivative Compound"
+    ],
+    "power_source": "Arc Reactor Mark II (Triangular — Vibranium-based)",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 2.8,
+    "max_altitude_ft": 42000,
+    "weight_kg": 23,
+    "stats": {
+      "durability": 80,
+      "speed": 72,
+      "firepower": 82,
+      "maneuverability": 75,
+      "ai_systems": 65,
+      "stealth": 22
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "autopilot",
+      "laser-cutter"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "Powered by a new triangular arc reactor using Tony's self-synthesised element, the Mark VI solved the palladium poisoning crisis and debuted at the Stark Expo battle.",
+    "image_path": "/suits/mark-6.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-7",
+    "designation": "MARK VII",
+    "nickname": "The Auto-Deploy",
+    "era": "development",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "decommissioned",
+    "first_appearance": "The Avengers (2012)",
+    "films": [
+      "The Avengers (2012)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Titanium-Gold Alloy",
+      "Carbon Nanotubes"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 3,
+    "max_altitude_ft": 45000,
+    "weight_kg": 22,
+    "stats": {
+      "durability": 82,
+      "speed": 75,
+      "firepower": 85,
+      "maneuverability": 78,
+      "ai_systems": 70,
+      "stealth": 20
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "autopilot",
+      "auto-deploy",
+      "wristband-summon"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "Designed with wristband-actuated auto-deploy, the Mark VII allowed Tony to suit up in freefall. It survived the Chitauri invasion and a nuclear missile ride through the wormhole.",
+    "image_path": "/suits/mark-7.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-8",
+    "designation": "MARK VIII",
+    "nickname": "Striker",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Advanced Titanium Alloy",
+      "Carbon Fibre Reinforced Polymer"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 3.2,
+    "max_altitude_ft": 50000,
+    "weight_kg": 21,
+    "stats": {
+      "durability": 80,
+      "speed": 76,
+      "firepower": 80,
+      "maneuverability": 78,
+      "ai_systems": 72,
+      "stealth": 22
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "autopilot"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "The first suit of Tony's obsessive post-Avengers build phase. Part of the Iron Legion deployed against Aldrich Killian's Extremis soldiers.",
+    "image_path": "/suits/mark-8.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-9",
+    "designation": "MARK IX",
+    "nickname": "Bravo",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Advanced Titanium Alloy",
+      "Carbon Fibre Composites"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 3.2,
+    "max_altitude_ft": 50000,
+    "weight_kg": 21,
+    "stats": {
+      "durability": 80,
+      "speed": 76,
+      "firepower": 80,
+      "maneuverability": 79,
+      "ai_systems": 72,
+      "stealth": 22
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "autopilot"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "Deployed remotely during the Iron Legion activation sequence. Destroyed during the Malibu mansion assault or the Killian confrontation.",
+    "image_path": "/suits/mark-9.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-10",
+    "designation": "MARK X",
+    "nickname": "Phantom",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Hardened Titanium Alloy",
+      "Stealth-Grade Polymers"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#1A1A2E",
+    "color_secondary": "#C0392B",
+    "max_speed_mach": 3.4,
+    "max_altitude_ft": 52000,
+    "weight_kg": 20,
+    "stats": {
+      "durability": 78,
+      "speed": 80,
+      "firepower": 76,
+      "maneuverability": 82,
+      "ai_systems": 74,
+      "stealth": 45
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "autopilot"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": true,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "A darker variant built with low-observable materials as Tony explored stealth configurations within the Legion series.",
+    "image_path": "/suits/mark-10.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-11",
+    "designation": "MARK XI",
+    "nickname": "Longbow",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Titanium Alloy",
+      "Reinforced Composites"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#8B0000",
+    "color_secondary": "#DAA520",
+    "max_speed_mach": 3.2,
+    "max_altitude_ft": 50000,
+    "weight_kg": 22,
+    "stats": {
+      "durability": 79,
+      "speed": 74,
+      "firepower": 84,
+      "maneuverability": 76,
+      "ai_systems": 72,
+      "stealth": 20
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "long-range-weapons",
+      "flight",
+      "hud"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "An extended-range weapons configuration, Longbow was built to engage threats from a distance before they reached Tony's position.",
+    "image_path": "/suits/mark-11.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-12",
+    "designation": "MARK XII",
+    "nickname": "Plated",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Heavy Titanium Plating",
+      "Ceramic Composites"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#C0392B",
+    "color_secondary": "#C0C0C0",
+    "max_speed_mach": 2.8,
+    "max_altitude_ft": 45000,
+    "weight_kg": 30,
+    "stats": {
+      "durability": 88,
+      "speed": 66,
+      "firepower": 78,
+      "maneuverability": 65,
+      "ai_systems": 72,
+      "stealth": 15
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "enhanced-armor",
+      "flight",
+      "hud"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "A heavier-plated variant trading agility for resilience, designed to sustain punishment in sustained firefights.",
+    "image_path": "/suits/mark-12.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-13",
+    "designation": "MARK XIII",
+    "nickname": "Atlas",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Titanium Alloy",
+      "High-Tensile Steel Reinforcements"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#5D4037",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 3,
+    "max_altitude_ft": 48000,
+    "weight_kg": 28,
+    "stats": {
+      "durability": 85,
+      "speed": 68,
+      "firepower": 76,
+      "maneuverability": 68,
+      "ai_systems": 72,
+      "stealth": 18
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "structural-support"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "A load-bearing variant built with reinforced framing to handle extreme structural stress — part rescue suit, part battering ram.",
+    "image_path": "/suits/mark-13.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-14",
+    "designation": "MARK XIV",
+    "nickname": "Reactor",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Advanced Titanium Alloy",
+      "Reactor-Cooling Composite"
+    ],
+    "power_source": "Arc Reactor Mark II (Overclocked)",
+    "color_primary": "#C0392B",
+    "color_secondary": "#00D4FF",
+    "max_speed_mach": 3.3,
+    "max_altitude_ft": 50000,
+    "weight_kg": 22,
+    "stats": {
+      "durability": 80,
+      "speed": 78,
+      "firepower": 90,
+      "maneuverability": 76,
+      "ai_systems": 74,
+      "stealth": 20
+    },
+    "capabilities": [
+      "repulsors",
+      "overcharged-uni-beam",
+      "missiles",
+      "energy-burst",
+      "flight",
+      "hud"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "Built around an overclocked arc reactor configuration, the Mark XIV channels higher energy output at the cost of thermal stability.",
+    "image_path": "/suits/mark-14.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-15",
+    "designation": "MARK XV",
+    "nickname": "Sneaky",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Radar-Absorbent Materials",
+      "Stealth Polymers",
+      "Lightweight Titanium"
+    ],
+    "power_source": "Arc Reactor Mark II (Low-Emission)",
+    "color_primary": "#1B2A1B",
+    "color_secondary": "#2E4A2E",
+    "max_speed_mach": 3.5,
+    "max_altitude_ft": 55000,
+    "weight_kg": 18,
+    "stats": {
+      "durability": 72,
+      "speed": 85,
+      "firepower": 68,
+      "maneuverability": 88,
+      "ai_systems": 76,
+      "stealth": 90
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "flight",
+      "hud",
+      "stealth-mode",
+      "low-emission"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": true,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "Tony's first dedicated stealth suit, built with radar-absorbent plating and a suppressed arc reactor signature. What it lacks in firepower it makes up for in invisibility.",
+    "image_path": "/suits/mark-15.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-16",
+    "designation": "MARK XVI",
+    "nickname": "Nightclub",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Titanium Alloy",
+      "Carbon Black Finish"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#1A0A0A",
+    "color_secondary": "#C0392B",
+    "max_speed_mach": 3.2,
+    "max_altitude_ft": 50000,
+    "weight_kg": 21,
+    "stats": {
+      "durability": 78,
+      "speed": 80,
+      "firepower": 78,
+      "maneuverability": 82,
+      "ai_systems": 74,
+      "stealth": 55
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "low-light-optics"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": true,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "A sleek black-and-crimson variant optimised for night operations, with enhanced low-light sensor arrays and minimal light emission.",
+    "image_path": "/suits/mark-16.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-17",
+    "designation": "MARK XVII",
+    "nickname": "Heartbreaker",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Reinforced Titanium",
+      "Heavy Armor Plating"
+    ],
+    "power_source": "Arc Reactor Mark II (High-Output Chest Configuration)",
+    "color_primary": "#7B1A1A",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 2.5,
+    "max_altitude_ft": 40000,
+    "weight_kg": 35,
+    "stats": {
+      "durability": 88,
+      "speed": 58,
+      "firepower": 96,
+      "maneuverability": 55,
+      "ai_systems": 74,
+      "stealth": 12
+    },
+    "capabilities": [
+      "repulsors",
+      "overcharged-uni-beam",
+      "heavy-missiles",
+      "anti-tank-rounds",
+      "flight",
+      "hud"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "Built around a massively oversized chest arc reactor for maximum energy-beam output. The heaviest pre-Igor suit, designed to punch through reinforced structures.",
+    "image_path": "/suits/mark-17.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-18",
+    "designation": "MARK XVIII",
+    "nickname": "Casanova",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Titanium Alloy",
+      "Polished Silver Composite"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#C0392B",
+    "color_secondary": "#C0C0C0",
+    "max_speed_mach": 3.3,
+    "max_altitude_ft": 50000,
+    "weight_kg": 22,
+    "stats": {
+      "durability": 80,
+      "speed": 80,
+      "firepower": 80,
+      "maneuverability": 83,
+      "ai_systems": 76,
+      "stealth": 28
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "enhanced-maneuvering"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "A well-rounded suit with a polished silver trim — no extreme specialisation, just refinement. Tony's most balanced Legion-era build.",
+    "image_path": "/suits/mark-18.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-19",
+    "designation": "MARK XIX",
+    "nickname": "Tiger",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Titanium Alloy",
+      "High-Temperature Ceramics"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#E65C00",
+    "color_secondary": "#1A1A1A",
+    "max_speed_mach": 3.6,
+    "max_altitude_ft": 52000,
+    "weight_kg": 21,
+    "stats": {
+      "durability": 79,
+      "speed": 88,
+      "firepower": 80,
+      "maneuverability": 86,
+      "ai_systems": 74,
+      "stealth": 22
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "high-speed-pursuit"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "An agility-focused suit with striking orange-and-black colouring and a pursuit-optimised aerodynamic profile. Built to run down fast-moving targets.",
+    "image_path": "/suits/mark-19.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-20",
+    "designation": "MARK XX",
+    "nickname": "Python",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Titanium Alloy",
+      "Flexible Joint Composites"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#2D5A27",
+    "color_secondary": "#1A3A16",
+    "max_speed_mach": 3.2,
+    "max_altitude_ft": 50000,
+    "weight_kg": 22,
+    "stats": {
+      "durability": 80,
+      "speed": 78,
+      "firepower": 76,
+      "maneuverability": 90,
+      "ai_systems": 74,
+      "stealth": 40
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "enhanced-flexibility"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": true,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "The Python's dark green finish and flexible joint design allowed it to navigate confined spaces and execute extreme manoeuvres other suits couldn't manage.",
+    "image_path": "/suits/mark-20.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-21",
+    "designation": "MARK XXI",
+    "nickname": "Midas",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Gold-Titanium Alloy",
+      "Polished Auric Composite"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#FFB800",
+    "color_secondary": "#E5A000",
+    "max_speed_mach": 3,
+    "max_altitude_ft": 48000,
+    "weight_kg": 24,
+    "stats": {
+      "durability": 82,
+      "speed": 72,
+      "firepower": 82,
+      "maneuverability": 74,
+      "ai_systems": 76,
+      "stealth": 18
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "solar-absorption"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "All gold. Tony built the Midas as a fully gold-titanium variant — partly an aesthetic experiment, partly to test different alloy ratios. Everything Stark touches turns to gold.",
+    "image_path": "/suits/mark-21.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-22",
+    "designation": "MARK XXII",
+    "nickname": "Hot Rod",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Deep-Red Titanium Alloy",
+      "Chrome Finish Composites"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#8B0000",
+    "color_secondary": "#C0C0C0",
+    "max_speed_mach": 4.2,
+    "max_altitude_ft": 55000,
+    "weight_kg": 19,
+    "stats": {
+      "durability": 76,
+      "speed": 92,
+      "firepower": 74,
+      "maneuverability": 88,
+      "ai_systems": 76,
+      "stealth": 25
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "flight",
+      "hud",
+      "high-speed-pursuit",
+      "afterburner"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "One of the fastest suits in the Legion series, Hot Rod's deep crimson and chrome livery screamed speed before it even moved. Built for high-speed intercept missions.",
+    "image_path": "/suits/mark-22.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-23",
+    "designation": "MARK XXIII",
+    "nickname": "Shades",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Dark Maroon Titanium",
+      "Tinted Optical Composites"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#4A0404",
+    "color_secondary": "#2A2A2A",
+    "max_speed_mach": 3.3,
+    "max_altitude_ft": 50000,
+    "weight_kg": 21,
+    "stats": {
+      "durability": 80,
+      "speed": 78,
+      "firepower": 78,
+      "maneuverability": 80,
+      "ai_systems": 78,
+      "stealth": 50
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "enhanced-optics",
+      "sensor-jamming"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": true,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "The Shades featured tinted sensor arrays and a deep maroon-grey finish that made it difficult to track visually. A balance of stealth and combat capability.",
+    "image_path": "/suits/mark-23.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-24",
+    "designation": "MARK XXIV",
+    "nickname": "Tank",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Extra-Heavy Titanium Plating",
+      "Depleted Uranium Composite Panels"
+    ],
+    "power_source": "Arc Reactor Mark II (Reinforced Housing)",
+    "color_primary": "#1C1C1C",
+    "color_secondary": "#8B0000",
+    "max_speed_mach": 1.8,
+    "max_altitude_ft": 35000,
+    "weight_kg": 55,
+    "stats": {
+      "durability": 96,
+      "speed": 45,
+      "firepower": 88,
+      "maneuverability": 42,
+      "ai_systems": 72,
+      "stealth": 8
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "heavy-missiles",
+      "anti-vehicle-cannons",
+      "flight",
+      "hud",
+      "blast-shielding"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "The Tank earned its name. Clad in the heaviest armour plating of the Legion series, it could absorb direct missile hits and keep operating. Slow, but nearly indestructible.",
+    "image_path": "/suits/mark-24.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-25",
+    "designation": "MARK XXV",
+    "nickname": "Thumper",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Titanium Alloy",
+      "Reinforced Fist Assemblies"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#E65C00",
+    "color_secondary": "#FFD700",
+    "max_speed_mach": 2.8,
+    "max_altitude_ft": 45000,
+    "weight_kg": 30,
+    "stats": {
+      "durability": 85,
+      "speed": 65,
+      "firepower": 88,
+      "maneuverability": 66,
+      "ai_systems": 72,
+      "stealth": 12
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "pile-driver-fists",
+      "flight",
+      "hud",
+      "seismic-pulse"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "The Thumper's heavily reinforced gauntlets deliver seismic impact strikes, built for opponents requiring raw kinetic force rather than energy weapons.",
+    "image_path": "/suits/mark-25.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-26",
+    "designation": "MARK XXVI",
+    "nickname": "Gamma",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Radiation-Hardened Titanium",
+      "Teal Composite Plating"
+    ],
+    "power_source": "Arc Reactor Mark II (Radiation-Shielded)",
+    "color_primary": "#006060",
+    "color_secondary": "#C0C0C0",
+    "max_speed_mach": 3,
+    "max_altitude_ft": 50000,
+    "weight_kg": 26,
+    "stats": {
+      "durability": 84,
+      "speed": 72,
+      "firepower": 80,
+      "maneuverability": 74,
+      "ai_systems": 80,
+      "stealth": 22
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "radiation-shielding",
+      "flight",
+      "hud",
+      "hazmat-systems"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "Purpose-built with radiation hardening and hazmat containment capabilities. The Gamma could operate safely in nuclear or radiological environments.",
+    "image_path": "/suits/mark-26.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-27",
+    "designation": "MARK XXVII",
+    "nickname": "Disco",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Polished Chrome Titanium",
+      "Mirror-Finish Alloy"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#D0D0D0",
+    "color_secondary": "#A0A0C0",
+    "max_speed_mach": 3.2,
+    "max_altitude_ft": 50000,
+    "weight_kg": 22,
+    "stats": {
+      "durability": 79,
+      "speed": 80,
+      "firepower": 78,
+      "maneuverability": 82,
+      "ai_systems": 76,
+      "stealth": 15
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "light-refraction-array"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "The mirror-chrome Disco is exactly what it sounds like — a fully polished suit that reflects light in all directions. Tony clearly had a sense of humour when naming this one.",
+    "image_path": "/suits/mark-27.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-28",
+    "designation": "MARK XXVIII",
+    "nickname": "Jack",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Titanium Alloy",
+      "Orange-Black Combat Finish"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#CC5500",
+    "color_secondary": "#111111",
+    "max_speed_mach": 3.4,
+    "max_altitude_ft": 52000,
+    "weight_kg": 21,
+    "stats": {
+      "durability": 81,
+      "speed": 83,
+      "firepower": 82,
+      "maneuverability": 84,
+      "ai_systems": 76,
+      "stealth": 30
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "close-combat-systems"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "An all-rounder with a distinctive burnt-orange and black finish. Jack was Tony's compact combat variant — no extreme specialisations, just excellent fundamentals.",
+    "image_path": "/suits/mark-28.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-29",
+    "designation": "MARK XXIX",
+    "nickname": "Fiddler",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Titanium Alloy",
+      "Acoustic-Dampening Composites"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#5A0A0A",
+    "color_secondary": "#2A1A00",
+    "max_speed_mach": 3,
+    "max_altitude_ft": 48000,
+    "weight_kg": 22,
+    "stats": {
+      "durability": 79,
+      "speed": 74,
+      "firepower": 76,
+      "maneuverability": 80,
+      "ai_systems": 82,
+      "stealth": 45
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "sonic-dampening",
+      "frequency-jamming"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": true,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "The Fiddler was built with acoustic dampening systems to minimise sound signature — a suit that moves in near-silence. Ideal for clandestine operations.",
+    "image_path": "/suits/mark-29.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-30",
+    "designation": "MARK XXX",
+    "nickname": "Blue Steel",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2012,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Blue-Tinted Titanium Steel",
+      "Reinforced Ceramic Composites"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#1E3A5F",
+    "color_secondary": "#C0C0C0",
+    "max_speed_mach": 3.3,
+    "max_altitude_ft": 52000,
+    "weight_kg": 23,
+    "stats": {
+      "durability": 84,
+      "speed": 78,
+      "firepower": 82,
+      "maneuverability": 79,
+      "ai_systems": 78,
+      "stealth": 35
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "enhanced-sensors"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": true,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "Blue Steel's deep navy and silver colouring was inspired by deep-water environments. It incorporated early underwater operation capability — a precursor to Hammerhead.",
+    "image_path": "/suits/mark-30.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-31",
+    "designation": "MARK XXXI",
+    "nickname": "Piston",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2013,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Heavy Titanium Alloy",
+      "Hydraulic Actuator Frame"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#CC6600",
+    "color_secondary": "#555555",
+    "max_speed_mach": 2.8,
+    "max_altitude_ft": 45000,
+    "weight_kg": 32,
+    "stats": {
+      "durability": 88,
+      "speed": 62,
+      "firepower": 86,
+      "maneuverability": 60,
+      "ai_systems": 74,
+      "stealth": 10
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "hydraulic-strike",
+      "flight",
+      "hud",
+      "pile-driver"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "The Piston's hydraulic actuator frame delivers enormous kinetic strikes, designed to breach fortified structures and demolish heavy machinery.",
+    "image_path": "/suits/mark-31.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-32",
+    "designation": "MARK XXXII",
+    "nickname": "Romeo",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2013,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Titanium Alloy",
+      "White Ceramic Panels"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#C0392B",
+    "color_secondary": "#F5F5F5",
+    "max_speed_mach": 3.2,
+    "max_altitude_ft": 50000,
+    "weight_kg": 22,
+    "stats": {
+      "durability": 81,
+      "speed": 80,
+      "firepower": 80,
+      "maneuverability": 82,
+      "ai_systems": 78,
+      "stealth": 25
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "Red and white with clean geometric lines, the Romeo was Tony's most refined Legion aesthetic — a suit he reportedly called his favourite to look at.",
+    "image_path": "/suits/mark-32.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-33",
+    "designation": "MARK XXXIII",
+    "nickname": "Silver Centurion",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2013,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Silver-Titanium Alloy",
+      "Red Accent Composites"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#C0C0C0",
+    "color_secondary": "#C0392B",
+    "max_speed_mach": 3.5,
+    "max_altitude_ft": 55000,
+    "weight_kg": 22,
+    "stats": {
+      "durability": 85,
+      "speed": 85,
+      "firepower": 85,
+      "maneuverability": 85,
+      "ai_systems": 82,
+      "stealth": 30
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "energy-conversion"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "The MCU's take on the classic Silver Centurion — silver with crimson accents, the most balanced suit in the entire Legion. Tony considered it the peak of his pre-Avengers-era engineering.",
+    "image_path": "/suits/mark-33.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-34",
+    "designation": "MARK XXXIV",
+    "nickname": "Southpaw",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2013,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Titanium Alloy",
+      "Left-Biased Weapon Mount Frame"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#8B1A1A",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 3.2,
+    "max_altitude_ft": 50000,
+    "weight_kg": 24,
+    "stats": {
+      "durability": 80,
+      "speed": 76,
+      "firepower": 88,
+      "maneuverability": 78,
+      "ai_systems": 76,
+      "stealth": 20
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "left-arm-heavy-cannon",
+      "missiles",
+      "flight",
+      "hud"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "An asymmetric weapons configuration with a heavily reinforced left arm for close-quarters combat. Tony was testing whether dominant-side loading improved reaction accuracy.",
+    "image_path": "/suits/mark-34.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-35",
+    "designation": "MARK XXXV",
+    "nickname": "Red Snapper",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2013,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Titanium Alloy",
+      "Extending Arm Hydraulics"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#C0392B",
+    "color_secondary": "#E65C00",
+    "max_speed_mach": 2.5,
+    "max_altitude_ft": 42000,
+    "weight_kg": 38,
+    "stats": {
+      "durability": 84,
+      "speed": 58,
+      "firepower": 82,
+      "maneuverability": 55,
+      "ai_systems": 76,
+      "stealth": 10
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "extendable-claw-arms",
+      "flight",
+      "hud",
+      "debris-clearance"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "The Red Snapper featured hydraulically extending arm attachments, designed for search and rescue operations — clearing rubble and extracting trapped civilians from disaster zones.",
+    "image_path": "/suits/mark-35.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-36",
+    "designation": "MARK XXXVI",
+    "nickname": "Peacemaker",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2013,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "White Titanium Alloy",
+      "Blue Accent Composites"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#F0F0F0",
+    "color_secondary": "#1E3A5F",
+    "max_speed_mach": 3,
+    "max_altitude_ft": 50000,
+    "weight_kg": 22,
+    "stats": {
+      "durability": 82,
+      "speed": 76,
+      "firepower": 78,
+      "maneuverability": 78,
+      "ai_systems": 82,
+      "stealth": 35
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "non-lethal-systems",
+      "flight",
+      "hud",
+      "crowd-control",
+      "EMP"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "White and blue, the Peacemaker was designed with non-lethal crowd control systems — EMP, sonic deterrents, stun repulsors. Tony's attempt at a diplomatic suit.",
+    "image_path": "/suits/mark-36.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-37",
+    "designation": "MARK XXXVII",
+    "nickname": "Hammerhead",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2013,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Pressure-Resistant Titanium",
+      "Aqua-Composite Hull"
+    ],
+    "power_source": "Arc Reactor Mark II (Waterproofed)",
+    "color_primary": "#1A3A5C",
+    "color_secondary": "#4A7A9B",
+    "max_speed_mach": 1.5,
+    "max_altitude_ft": 30000,
+    "weight_kg": 40,
+    "stats": {
+      "durability": 88,
+      "speed": 55,
+      "firepower": 80,
+      "maneuverability": 60,
+      "ai_systems": 76,
+      "stealth": 40
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "torpedoes",
+      "flight",
+      "hud",
+      "deep-sea-operation",
+      "pressure-resistance"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": true,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "Tony's first fully operational underwater suit. The Hammerhead was built for deep-sea operations — pressure-hardened hull, waterproof systems, and torpedo launchers.",
+    "image_path": "/suits/mark-37.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-38",
+    "designation": "MARK XXXVIII",
+    "nickname": "Igor",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2013,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Ultra-Heavy Titanium Plating",
+      "Hydraulic Exoskeleton Frame",
+      "Reinforced Steel"
+    ],
+    "power_source": "Dual Arc Reactor Mark II Configuration",
+    "color_primary": "#5C3A1E",
+    "color_secondary": "#2A1A0A",
+    "max_speed_mach": 1.2,
+    "max_altitude_ft": 20000,
+    "weight_kg": 120,
+    "stats": {
+      "durability": 98,
+      "speed": 35,
+      "firepower": 85,
+      "maneuverability": 30,
+      "ai_systems": 72,
+      "stealth": 5
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "heavy-lift",
+      "structural-support",
+      "flight",
+      "hud",
+      "seismic-anchor"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "The heaviest suit Tony ever built, Igor is a walking fortress. Its dual arc reactor system and seismic anchor legs let it lift and stabilise collapsing structures. Nearly immovable when locked in place.",
+    "image_path": "/suits/mark-38.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-39",
+    "designation": "MARK XXXIX",
+    "nickname": "Starboost",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2013,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Space-Grade Titanium Alloy",
+      "Vacuum-Rated Seals",
+      "Cryogenic Insulation"
+    ],
+    "power_source": "Arc Reactor Mark II (Space-Modified)",
+    "color_primary": "#C0392B",
+    "color_secondary": "#F5F5F5",
+    "max_speed_mach": 6,
+    "max_altitude_ft": 999999,
+    "weight_kg": 20,
+    "stats": {
+      "durability": 80,
+      "speed": 94,
+      "firepower": 72,
+      "maneuverability": 82,
+      "ai_systems": 82,
+      "stealth": 22
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "flight",
+      "space-flight",
+      "hud",
+      "vacuum-operation",
+      "orbital-insertion"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "Tony's first space-capable suit, designed for orbital operations with vacuum sealing and cryogenic insulation. The Starboost could achieve orbital insertion under its own power.",
+    "image_path": "/suits/mark-39.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-40",
+    "designation": "MARK XL",
+    "nickname": "Shotgun",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2013,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Ultra-Lightweight Titanium",
+      "Aerodynamic Composite Skin"
+    ],
+    "power_source": "Arc Reactor Mark II (High-Thrust Config)",
+    "color_primary": "#C0392B",
+    "color_secondary": "#1E3A5F",
+    "max_speed_mach": 8.5,
+    "max_altitude_ft": 70000,
+    "weight_kg": 17,
+    "stats": {
+      "durability": 70,
+      "speed": 98,
+      "firepower": 68,
+      "maneuverability": 86,
+      "ai_systems": 80,
+      "stealth": 20
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "flight",
+      "hypersonic-flight",
+      "hud",
+      "sonic-boom-dampening"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "The fastest suit of the Legion series — Mach 8.5, sacrificing armour for pure velocity. Used to intercept the falling oil rig workers in the Extremis showdown.",
+    "image_path": "/suits/mark-40.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-41",
+    "designation": "MARK XLI",
+    "nickname": "Bones",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2013,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Exposed Titanium Skeleton Frame",
+      "Minimal Surface Plating"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#C8C8C8",
+    "color_secondary": "#888888",
+    "max_speed_mach": 4,
+    "max_altitude_ft": 58000,
+    "weight_kg": 14,
+    "stats": {
+      "durability": 55,
+      "speed": 90,
+      "firepower": 70,
+      "maneuverability": 92,
+      "ai_systems": 82,
+      "stealth": 30
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "flight",
+      "hud",
+      "ultra-lightweight",
+      "enhanced-agility"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "The lightest suit ever built by Tony — an exposed titanium skeleton with minimal surface plating. Bones trades protection for unmatched agility. Built to prove the concept of minimal mass.",
+    "image_path": "/suits/mark-41.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-42",
+    "designation": "MARK XLII",
+    "nickname": "The Primary",
+    "era": "legion",
+    "scope": "mcu",
+    "year_built_canonical": 2013,
+    "status": "destroyed",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Titanium-Gold Alloy",
+      "Segmented Assembly Panels"
+    ],
+    "power_source": "Arc Reactor Mark II",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 3.6,
+    "max_altitude_ft": 55000,
+    "weight_kg": 22,
+    "stats": {
+      "durability": 84,
+      "speed": 82,
+      "firepower": 86,
+      "maneuverability": 84,
+      "ai_systems": 88,
+      "stealth": 22
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "thought-controlled-assembly",
+      "remote-segmentation"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "Tony's primary suit during the Mandarin crisis, the Mark XLII pioneered thought-controlled assembly — individual panels flying to the wearer on neural command. It was destroyed by Killian.",
+    "image_path": "/suits/mark-42.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-43",
+    "designation": "MARK XLIII",
+    "nickname": "Post-Extremis",
+    "era": "avengers",
+    "scope": "mcu",
+    "year_built_canonical": 2015,
+    "status": "destroyed",
+    "first_appearance": "Avengers: Age of Ultron (2015)",
+    "films": [
+      "Avengers: Age of Ultron (2015)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Upgraded Titanium-Gold Alloy",
+      "Improved Ceramic Composites"
+    ],
+    "power_source": "Arc Reactor Mark III",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 3.8,
+    "max_altitude_ft": 58000,
+    "weight_kg": 21,
+    "stats": {
+      "durability": 86,
+      "speed": 82,
+      "firepower": 88,
+      "maneuverability": 84,
+      "ai_systems": 82,
+      "stealth": 24
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "autopilot",
+      "energy-conversion"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "Built after the events of IM3 without Tony's arc reactor implant, the Mark XLIII used an external chest piece. Destroyed by Ultron in the Avengers facility during their first confrontation.",
+    "image_path": "/suits/mark-43.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-44",
+    "designation": "MARK XLIV",
+    "nickname": "Hulkbuster",
+    "era": "avengers",
+    "scope": "both",
+    "year_built_canonical": 2015,
+    "status": "decommissioned",
+    "first_appearance": "Avengers: Age of Ultron (2015)",
+    "films": [
+      "Avengers: Age of Ultron (2015)",
+      "Avengers: Infinity War (2018)"
+    ],
+    "comics_appearances": [
+      "Iron Man Vol 1 #304 (1994)"
+    ],
+    "materials": [
+      "Ultra-Dense Titanium Alloy",
+      "Servo-Hydraulic Frame",
+      "Vibranium-Composite Joints"
+    ],
+    "power_source": "Triple Arc Reactor Configuration",
+    "color_primary": "#8B1A1A",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 1.5,
+    "max_altitude_ft": 25000,
+    "weight_kg": 500,
+    "stats": {
+      "durability": 98,
+      "speed": 40,
+      "firepower": 94,
+      "maneuverability": 38,
+      "ai_systems": 80,
+      "stealth": 5
+    },
+    "capabilities": [
+      "repulsors",
+      "overcharged-uni-beam",
+      "heavy-missiles",
+      "pile-driver-fists",
+      "flight",
+      "hud",
+      "modular-repair-drone"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "Designed specifically to subdue the Hulk, the Hulkbuster is the most physically imposing suit in Tony's arsenal. Worn over the Mark XLIII, it can replace its own damaged parts mid-combat via an orbital support pod.",
+    "image_path": "/suits/mark-44.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-45",
+    "designation": "MARK XLV",
+    "nickname": "Sokovia",
+    "era": "avengers",
+    "scope": "mcu",
+    "year_built_canonical": 2015,
+    "status": "destroyed",
+    "first_appearance": "Avengers: Age of Ultron (2015)",
+    "films": [
+      "Avengers: Age of Ultron (2015)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Upgraded Titanium-Gold Alloy",
+      "Advanced Energy-Routing Systems"
+    ],
+    "power_source": "Arc Reactor Mark III",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 4,
+    "max_altitude_ft": 60000,
+    "weight_kg": 20,
+    "stats": {
+      "durability": 87,
+      "speed": 86,
+      "firepower": 90,
+      "maneuverability": 86,
+      "ai_systems": 84,
+      "stealth": 25
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "autopilot",
+      "enhanced-energy-routing"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "Worn during the Sokovia crisis, the Mark XLV held a city in the sky. Destroyed in the battle when Ultron's sentries overwhelmed Tony's position above the floating city fragment.",
+    "image_path": "/suits/mark-45.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-46",
+    "designation": "MARK XLVI",
+    "nickname": "Stealth Strike",
+    "era": "avengers",
+    "scope": "mcu",
+    "year_built_canonical": 2016,
+    "status": "decommissioned",
+    "first_appearance": "Captain America: Civil War (2016)",
+    "films": [
+      "Captain America: Civil War (2016)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Advanced Titanium-Gold Alloy",
+      "Dark Composite Panels"
+    ],
+    "power_source": "Arc Reactor Mark III",
+    "color_primary": "#C0392B",
+    "color_secondary": "#1A1A1A",
+    "max_speed_mach": 4.2,
+    "max_altitude_ft": 62000,
+    "weight_kg": 20,
+    "stats": {
+      "durability": 88,
+      "speed": 86,
+      "firepower": 90,
+      "maneuverability": 88,
+      "ai_systems": 88,
+      "stealth": 35
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "autopilot",
+      "enhanced-close-combat",
+      "dynamic-armor"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "Worn during the Avengers' civil war, the Mark XLVI battled both Captain America and Bucky Barnes simultaneously. Severely damaged during the Siberia confrontation.",
+    "image_path": "/suits/mark-46.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-47",
+    "designation": "MARK XLVII",
+    "nickname": "Homecoming",
+    "era": "avengers",
+    "scope": "mcu",
+    "year_built_canonical": 2016,
+    "status": "decommissioned",
+    "first_appearance": "Spider-Man: Homecoming (2017)",
+    "films": [
+      "Spider-Man: Homecoming (2017)",
+      "Avengers: Infinity War (2018)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Advanced Titanium-Gold Alloy",
+      "Upgraded Sensor Package"
+    ],
+    "power_source": "Arc Reactor Mark III",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 4.3,
+    "max_altitude_ft": 63000,
+    "weight_kg": 20,
+    "stats": {
+      "durability": 88,
+      "speed": 87,
+      "firepower": 90,
+      "maneuverability": 88,
+      "ai_systems": 90,
+      "stealth": 26
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "autopilot",
+      "FRIDAY-AI"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "Running FRIDAY as its primary AI, the Mark XLVII was Tony's go-to suit during the Spider-Man mentorship period. Intercepted the hijacked Stark cargo plane over the Atlantic.",
+    "image_path": "/suits/mark-47.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-48",
+    "designation": "MARK XLVIII",
+    "nickname": "Pre-Edge",
+    "era": "avengers",
+    "scope": "mcu",
+    "year_built_canonical": 2018,
+    "status": "decommissioned",
+    "first_appearance": "Avengers: Infinity War (2018)",
+    "films": [
+      "Avengers: Infinity War (2018)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Advanced Titanium-Gold Alloy",
+      "Pre-Nanotech Framework"
+    ],
+    "power_source": "Arc Reactor Mark III",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 4.4,
+    "max_altitude_ft": 64000,
+    "weight_kg": 20,
+    "stats": {
+      "durability": 89,
+      "speed": 88,
+      "firepower": 91,
+      "maneuverability": 89,
+      "ai_systems": 91,
+      "stealth": 26
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "FRIDAY-AI",
+      "enhanced-sensors"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "A transitional suit bridging conventional construction and Tony's nanotech research. Worn briefly before Tony completed the Mark L's nanotech integration.",
+    "image_path": "/suits/mark-48.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-49",
+    "designation": "MARK XLIX",
+    "nickname": "Prototype Edge",
+    "era": "avengers",
+    "scope": "mcu",
+    "year_built_canonical": 2018,
+    "status": "decommissioned",
+    "first_appearance": "Avengers: Infinity War (2018)",
+    "films": [
+      "Avengers: Infinity War (2018)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Early Nanotech Framework",
+      "Titanium-Gold Alloy Hybrid"
+    ],
+    "power_source": "Arc Reactor Mark III",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 4.6,
+    "max_altitude_ft": 65000,
+    "weight_kg": 18,
+    "stats": {
+      "durability": 89,
+      "speed": 90,
+      "firepower": 92,
+      "maneuverability": 91,
+      "ai_systems": 92,
+      "stealth": 28
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "FRIDAY-AI",
+      "partial-nanotech"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": true,
+      "vibranium_laced": false
+    },
+    "lore": "The first suit to incorporate partial nanotechnology, the Mark XLIX was a proof-of-concept for the fully nano-integrated Mark L that followed.",
+    "image_path": "/suits/mark-49.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-50",
+    "designation": "MARK L",
+    "nickname": "Bleeding Edge",
+    "era": "avengers",
+    "scope": "both",
+    "year_built_canonical": 2018,
+    "status": "destroyed",
+    "first_appearance": "Avengers: Infinity War (2018)",
+    "films": [
+      "Avengers: Infinity War (2018)",
+      "Avengers: Endgame (2019)"
+    ],
+    "comics_appearances": [
+      "Invincible Iron Man #25 (2010)"
+    ],
+    "materials": [
+      "Nano-Particle Titanium-Gold Alloy",
+      "AI-Responsive Nanotech Matrix"
+    ],
+    "power_source": "Arc Reactor Mark III (Nano-Integrated)",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 5,
+    "max_altitude_ft": 100000,
+    "weight_kg": 15,
+    "stats": {
+      "durability": 92,
+      "speed": 92,
+      "firepower": 94,
+      "maneuverability": 93,
+      "ai_systems": 92,
+      "stealth": 35
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "nano-missiles",
+      "nano-blades",
+      "nano-whips",
+      "flight",
+      "hud",
+      "FRIDAY-AI",
+      "on-demand-reconfiguration",
+      "space-capable"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": true,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "Stored entirely within Tony's arc reactor chest piece, the Mark L deploys as a wave of nanobots that assemble the suit around him in under a second. It can reconfigure into any weapon or tool on demand. Sustained heavy damage from Thanos on Titan.",
+    "image_path": "/suits/mark-50.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-51",
+    "designation": "MARK LI",
+    "nickname": "Cabin I",
+    "era": "endgame",
+    "scope": "mcu",
+    "year_built_canonical": 2019,
+    "status": "decommissioned",
+    "first_appearance": "Avengers: Endgame (2019)",
+    "films": [
+      "Avengers: Endgame (2019)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Advanced Nanotech Alloy",
+      "Titanium-Gold Composite"
+    ],
+    "power_source": "Arc Reactor Mark IV",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 5.1,
+    "max_altitude_ft": 100000,
+    "weight_kg": 15,
+    "stats": {
+      "durability": 90,
+      "speed": 90,
+      "firepower": 92,
+      "maneuverability": 91,
+      "ai_systems": 92,
+      "stealth": 36
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "nano-missiles",
+      "flight",
+      "hud",
+      "FRIDAY-AI",
+      "nanotech"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": true,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "Tony's first post-Infinity War build, developed during his self-imposed retirement. The beginning of a five-year engineering evolution in a lakeside cabin.",
+    "image_path": "/suits/mark-51.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-52",
+    "designation": "MARK LII",
+    "nickname": "Quantum",
+    "era": "endgame",
+    "scope": "mcu",
+    "year_built_canonical": 2019,
+    "status": "decommissioned",
+    "first_appearance": "Avengers: Endgame (2019)",
+    "films": [
+      "Avengers: Endgame (2019)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Quantum-Shielded Nanotech Alloy",
+      "Time-Stable Composites"
+    ],
+    "power_source": "Arc Reactor Mark IV",
+    "color_primary": "#C0392B",
+    "color_secondary": "#A0A0FF",
+    "max_speed_mach": 5.2,
+    "max_altitude_ft": 100000,
+    "weight_kg": 15,
+    "stats": {
+      "durability": 90,
+      "speed": 91,
+      "firepower": 92,
+      "maneuverability": 91,
+      "ai_systems": 93,
+      "stealth": 37
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "nano-missiles",
+      "flight",
+      "hud",
+      "FRIDAY-AI",
+      "nanotech",
+      "quantum-shielding"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": true,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "Built during Tony's early quantum realm research, the Quantum incorporated shielding designed to protect against temporal displacement effects.",
+    "image_path": "/suits/mark-52.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-53",
+    "designation": "MARK LIII",
+    "nickname": "Aqua",
+    "era": "endgame",
+    "scope": "mcu",
+    "year_built_canonical": 2019,
+    "status": "decommissioned",
+    "first_appearance": "Avengers: Endgame (2019)",
+    "films": [
+      "Avengers: Endgame (2019)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Hydrophilic Nanotech Alloy",
+      "Pressure-Adaptive Matrix"
+    ],
+    "power_source": "Arc Reactor Mark IV",
+    "color_primary": "#1A3A5C",
+    "color_secondary": "#C0392B",
+    "max_speed_mach": 4,
+    "max_altitude_ft": 80000,
+    "weight_kg": 16,
+    "stats": {
+      "durability": 88,
+      "speed": 85,
+      "firepower": 88,
+      "maneuverability": 90,
+      "ai_systems": 92,
+      "stealth": 50
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "torpedoes",
+      "flight",
+      "hud",
+      "FRIDAY-AI",
+      "nanotech",
+      "deep-sea-operation"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": true,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "Built for the lake behind his cabin, the Aqua was Tony's most advanced underwater suit yet — nanotech that could reconfigure in real-time for aquatic operations.",
+    "image_path": "/suits/mark-53.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-54",
+    "designation": "MARK LIV",
+    "nickname": "Whisper",
+    "era": "endgame",
+    "scope": "mcu",
+    "year_built_canonical": 2020,
+    "status": "decommissioned",
+    "first_appearance": "Avengers: Endgame (2019)",
+    "films": [
+      "Avengers: Endgame (2019)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Stealth Nanotech Alloy",
+      "Radar-Absorbent Matrix"
+    ],
+    "power_source": "Arc Reactor Mark IV (Low-Emission)",
+    "color_primary": "#1A1A2A",
+    "color_secondary": "#2A2A3A",
+    "max_speed_mach": 5,
+    "max_altitude_ft": 100000,
+    "weight_kg": 14,
+    "stats": {
+      "durability": 85,
+      "speed": 92,
+      "firepower": 86,
+      "maneuverability": 92,
+      "ai_systems": 93,
+      "stealth": 88
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "nano-missiles",
+      "flight",
+      "hud",
+      "FRIDAY-AI",
+      "nanotech",
+      "full-stealth"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": true,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "Tony's most advanced stealth suit — nanotech with active radar absorption and minimal arc reactor emission. Near-invisible to both optical and electronic detection.",
+    "image_path": "/suits/mark-54.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-55",
+    "designation": "MARK LV",
+    "nickname": "Atlas",
+    "era": "endgame",
+    "scope": "mcu",
+    "year_built_canonical": 2020,
+    "status": "decommissioned",
+    "first_appearance": "Avengers: Endgame (2019)",
+    "films": [
+      "Avengers: Endgame (2019)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Structural Nanotech Alloy",
+      "Seismic-Hardened Frame"
+    ],
+    "power_source": "Dual Arc Reactor Mark IV",
+    "color_primary": "#5A3A1A",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 3.5,
+    "max_altitude_ft": 70000,
+    "weight_kg": 28,
+    "stats": {
+      "durability": 96,
+      "speed": 72,
+      "firepower": 88,
+      "maneuverability": 68,
+      "ai_systems": 90,
+      "stealth": 18
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "heavy-lift",
+      "flight",
+      "hud",
+      "FRIDAY-AI",
+      "nanotech",
+      "seismic-anchor"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "The cabin era's Igor equivalent — heavy lifting, disaster response, and structural support. Built with nanotech for adaptable tool configurations.",
+    "image_path": "/suits/mark-55.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-60",
+    "designation": "MARK LX",
+    "nickname": "Drift",
+    "era": "endgame",
+    "scope": "mcu",
+    "year_built_canonical": 2020,
+    "status": "decommissioned",
+    "first_appearance": "Avengers: Endgame (2019)",
+    "films": [
+      "Avengers: Endgame (2019)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Fluid-Dynamic Nanotech Alloy",
+      "Aerodynamic Adaptive Skin"
+    ],
+    "power_source": "Arc Reactor Mark IV",
+    "color_primary": "#C0392B",
+    "color_secondary": "#4A8FA6",
+    "max_speed_mach": 5.5,
+    "max_altitude_ft": 120000,
+    "weight_kg": 14,
+    "stats": {
+      "durability": 88,
+      "speed": 95,
+      "firepower": 88,
+      "maneuverability": 95,
+      "ai_systems": 92,
+      "stealth": 40
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "nano-missiles",
+      "flight",
+      "hud",
+      "FRIDAY-AI",
+      "nanotech",
+      "fluid-aerodynamics"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": true,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "An aerodynamics research suit pushing the limits of fluid-dynamic nanotech skin. Drift could reshape its exterior profile mid-flight to optimise for any speed or angle.",
+    "image_path": "/suits/mark-60.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-65",
+    "designation": "MARK LXV",
+    "nickname": "Meridian",
+    "era": "endgame",
+    "scope": "mcu",
+    "year_built_canonical": 2021,
+    "status": "decommissioned",
+    "first_appearance": "Avengers: Endgame (2019)",
+    "films": [
+      "Avengers: Endgame (2019)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Advanced Nanotech Alloy",
+      "Multi-Spectrum Sensor Array"
+    ],
+    "power_source": "Arc Reactor Mark IV",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 5.2,
+    "max_altitude_ft": 110000,
+    "weight_kg": 15,
+    "stats": {
+      "durability": 91,
+      "speed": 92,
+      "firepower": 92,
+      "maneuverability": 92,
+      "ai_systems": 95,
+      "stealth": 40
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "nano-missiles",
+      "flight",
+      "hud",
+      "FRIDAY-AI",
+      "nanotech",
+      "advanced-sensors",
+      "predictive-combat-AI"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": true,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "The Meridian was Tony's AI research platform — a suit built primarily to push the limits of FRIDAY's combat prediction systems and multi-spectrum threat analysis.",
+    "image_path": "/suits/mark-65.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-70",
+    "designation": "MARK LXX",
+    "nickname": "Crucible",
+    "era": "endgame",
+    "scope": "mcu",
+    "year_built_canonical": 2021,
+    "status": "decommissioned",
+    "first_appearance": "Avengers: Endgame (2019)",
+    "films": [
+      "Avengers: Endgame (2019)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Heat-Resistant Nanotech Alloy",
+      "Forge-Grade Composites"
+    ],
+    "power_source": "Arc Reactor Mark V",
+    "color_primary": "#8B1A1A",
+    "color_secondary": "#FF6A00",
+    "max_speed_mach": 5.3,
+    "max_altitude_ft": 110000,
+    "weight_kg": 15,
+    "stats": {
+      "durability": 93,
+      "speed": 91,
+      "firepower": 94,
+      "maneuverability": 91,
+      "ai_systems": 94,
+      "stealth": 38
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "nano-missiles",
+      "nano-blades",
+      "flight",
+      "hud",
+      "FRIDAY-AI",
+      "nanotech",
+      "plasma-torch"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": true,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "The first suit powered by Tony's redesigned Mark V arc reactor, the Crucible ran hotter and hit harder than anything he'd built since Bleeding Edge.",
+    "image_path": "/suits/mark-70.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-75",
+    "designation": "MARK LXXV",
+    "nickname": "Pinnacle",
+    "era": "endgame",
+    "scope": "mcu",
+    "year_built_canonical": 2022,
+    "status": "decommissioned",
+    "first_appearance": "Avengers: Endgame (2019)",
+    "films": [
+      "Avengers: Endgame (2019)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Next-Gen Nanotech Alloy",
+      "Vibranium-Threaded Composites"
+    ],
+    "power_source": "Arc Reactor Mark V",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 5.4,
+    "max_altitude_ft": 120000,
+    "weight_kg": 15,
+    "stats": {
+      "durability": 94,
+      "speed": 93,
+      "firepower": 94,
+      "maneuverability": 93,
+      "ai_systems": 95,
+      "stealth": 40
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "nano-missiles",
+      "nano-blades",
+      "nano-whips",
+      "flight",
+      "hud",
+      "FRIDAY-AI",
+      "nanotech",
+      "vibranium-reinforcement"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": true,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": false,
+      "vibranium_laced": true
+    },
+    "lore": "Tony's first suit to integrate vibranium-threaded nanotech composites, dramatically increasing the suit's structural integrity and energy absorption capacity.",
+    "image_path": "/suits/mark-75.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-80",
+    "designation": "MARK LXXX",
+    "nickname": "Sentinel",
+    "era": "endgame",
+    "scope": "mcu",
+    "year_built_canonical": 2022,
+    "status": "decommissioned",
+    "first_appearance": "Avengers: Endgame (2019)",
+    "films": [
+      "Avengers: Endgame (2019)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Ultra-Advanced Nanotech Alloy",
+      "AI-Symbiotic Matrix"
+    ],
+    "power_source": "Arc Reactor Mark V (Enhanced)",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 5.4,
+    "max_altitude_ft": 130000,
+    "weight_kg": 14,
+    "stats": {
+      "durability": 94,
+      "speed": 93,
+      "firepower": 95,
+      "maneuverability": 93,
+      "ai_systems": 96,
+      "stealth": 42
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "nano-missiles",
+      "nano-blades",
+      "flight",
+      "hud",
+      "FRIDAY-AI",
+      "nanotech",
+      "predictive-combat-AI",
+      "vibranium-reinforcement"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": true,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": false,
+      "vibranium_laced": true
+    },
+    "lore": "Tony's penultimate pre-Endgame design, the Sentinel achieved near-perfect AI-suit symbiosis. Five years of quiet engineering converging toward one final design.",
+    "image_path": "/suits/mark-80.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "mark-85",
+    "designation": "MARK LXXXV",
+    "nickname": "Endgame",
+    "era": "endgame",
+    "scope": "mcu",
+    "year_built_canonical": 2023,
+    "status": "destroyed",
+    "first_appearance": "Avengers: Endgame (2019)",
+    "films": [
+      "Avengers: Endgame (2019)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Vibranium-Nano-Alloy Composite",
+      "Quantum-Hardened Matrix",
+      "Infinity-Gauntlet-Compatible Housing"
+    ],
+    "power_source": "Arc Reactor Mark V (Peak Output)",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 5.5,
+    "max_altitude_ft": 999999,
+    "weight_kg": 15,
+    "stats": {
+      "durability": 96,
+      "speed": 94,
+      "firepower": 97,
+      "maneuverability": 94,
+      "ai_systems": 97,
+      "stealth": 42
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "nano-missiles",
+      "nano-blades",
+      "nano-whips",
+      "nano-gauntlet",
+      "flight",
+      "hud",
+      "FRIDAY-AI",
+      "nanotech",
+      "vibranium-reinforcement",
+      "space-flight",
+      "time-heist-integration"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": true,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": false,
+      "vibranium_laced": true
+    },
+    "lore": "Tony Stark's final suit. Built across five years of retirement, the Mark LXXXV incorporated vibranium-nanotech composites and housed a custom Infinity Gauntlet. Tony used it to undo Thanos's snap — and sacrificed his life to do it.",
+    "image_path": "/suits/mark-85.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "war-machine-1",
+    "designation": "WAR MACHINE MK I",
+    "nickname": "The Colonel",
+    "era": "variants",
+    "scope": "both",
+    "year_built_canonical": 2011,
+    "status": "decommissioned",
+    "first_appearance": "Iron Man 2 (2010)",
+    "films": [
+      "Iron Man 2 (2010)"
+    ],
+    "comics_appearances": [
+      "Iron Man #144 (1981)"
+    ],
+    "materials": [
+      "Titanium Alloy",
+      "Military-Grade Steel",
+      "Weapons Platform Mounts"
+    ],
+    "power_source": "Arc Reactor Mark I (Repurposed)",
+    "color_primary": "#4A4A4A",
+    "color_secondary": "#C0C0C0",
+    "max_speed_mach": 2,
+    "max_altitude_ft": 35000,
+    "weight_kg": 38,
+    "stats": {
+      "durability": 84,
+      "speed": 62,
+      "firepower": 92,
+      "maneuverability": 60,
+      "ai_systems": 65,
+      "stealth": 15
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "mini-gun",
+      "missiles",
+      "flight",
+      "hud",
+      "weapons-platform"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "James Rhodes appropriated Tony's Mark II and had it retrofitted by Justin Hammer with a weapons platform: minigun, missile batteries, and military-grade firepower. The birth of War Machine.",
+    "image_path": "/suits/war-machine-1.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "iron-patriot",
+    "designation": "IRON PATRIOT",
+    "nickname": "Painted Soldier",
+    "era": "variants",
+    "scope": "both",
+    "year_built_canonical": 2013,
+    "status": "decommissioned",
+    "first_appearance": "Iron Man 3 (2013)",
+    "films": [
+      "Iron Man 3 (2013)"
+    ],
+    "comics_appearances": [
+      "Dark Avengers #1 (2009)"
+    ],
+    "materials": [
+      "Titanium Alloy",
+      "Patriotic Ceramic Coating"
+    ],
+    "power_source": "Arc Reactor Mark I (Repurposed)",
+    "color_primary": "#002868",
+    "color_secondary": "#BF0A30",
+    "max_speed_mach": 2,
+    "max_altitude_ft": 35000,
+    "weight_kg": 38,
+    "stats": {
+      "durability": 84,
+      "speed": 60,
+      "firepower": 90,
+      "maneuverability": 58,
+      "ai_systems": 66,
+      "stealth": 10
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "mini-gun",
+      "missiles",
+      "flight",
+      "hud",
+      "weapons-platform"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "The War Machine armour repainted in red, white, and blue as a PR rebranding exercise by the US government. Hijacked by Aldrich Killian's Extremis soldiers to abduct the President.",
+    "image_path": "/suits/iron-patriot.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "war-machine-2",
+    "designation": "WAR MACHINE MK II",
+    "nickname": "Iron Man 2.0",
+    "era": "variants",
+    "scope": "both",
+    "year_built_canonical": 2015,
+    "status": "decommissioned",
+    "first_appearance": "Avengers: Age of Ultron (2015)",
+    "films": [
+      "Avengers: Age of Ultron (2015)",
+      "Captain America: Civil War (2016)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Advanced Military Titanium",
+      "Upgraded Weapons Platform"
+    ],
+    "power_source": "Arc Reactor Mark II (Military-Modified)",
+    "color_primary": "#3A3A3A",
+    "color_secondary": "#C0C0C0",
+    "max_speed_mach": 2.8,
+    "max_altitude_ft": 42000,
+    "weight_kg": 35,
+    "stats": {
+      "durability": 88,
+      "speed": 70,
+      "firepower": 94,
+      "maneuverability": 68,
+      "ai_systems": 75,
+      "stealth": 18
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "mini-gun",
+      "smart-missiles",
+      "flight",
+      "hud",
+      "EMP",
+      "weapons-platform"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "A fully redesigned War Machine with upgraded weapons systems and improved manoeuvrability. Severely damaged in Civil War when Vision accidentally shot it down during the airport battle.",
+    "image_path": "/suits/war-machine-2.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "war-machine-3",
+    "designation": "WAR MACHINE MK III",
+    "nickname": "Liberator",
+    "era": "variants",
+    "scope": "mcu",
+    "year_built_canonical": 2016,
+    "status": "decommissioned",
+    "first_appearance": "Captain America: Civil War (2016)",
+    "films": [
+      "Captain America: Civil War (2016)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Reinforced Military Titanium",
+      "Exo-Rehabilitation Frame"
+    ],
+    "power_source": "Arc Reactor Mark II (Military)",
+    "color_primary": "#3A3A3A",
+    "color_secondary": "#8A8A8A",
+    "max_speed_mach": 2.8,
+    "max_altitude_ft": 42000,
+    "weight_kg": 36,
+    "stats": {
+      "durability": 88,
+      "speed": 70,
+      "firepower": 94,
+      "maneuverability": 68,
+      "ai_systems": 76,
+      "stealth": 18
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "mini-gun",
+      "smart-missiles",
+      "flight",
+      "hud",
+      "weapons-platform"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "The same Mark III saw Rhodes through his rehabilitation after Civil War. Tony built Rhodey an exoskeleton to help him walk again — a debt repaid in iron.",
+    "image_path": "/suits/war-machine-3.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "war-machine-4",
+    "designation": "WAR MACHINE MK IV",
+    "nickname": "Infinity Gunship",
+    "era": "variants",
+    "scope": "mcu",
+    "year_built_canonical": 2018,
+    "status": "decommissioned",
+    "first_appearance": "Avengers: Infinity War (2018)",
+    "films": [
+      "Avengers: Infinity War (2018)",
+      "Avengers: Endgame (2019)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Advanced Military Nanotech Alloy",
+      "Upgraded Weapons Systems"
+    ],
+    "power_source": "Arc Reactor Mark III (Military-Grade)",
+    "color_primary": "#2A2A2A",
+    "color_secondary": "#C0C0C0",
+    "max_speed_mach": 3.5,
+    "max_altitude_ft": 55000,
+    "weight_kg": 30,
+    "stats": {
+      "durability": 90,
+      "speed": 78,
+      "firepower": 96,
+      "maneuverability": 76,
+      "ai_systems": 82,
+      "stealth": 22
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "mini-gun",
+      "smart-missiles",
+      "sonic-cannon",
+      "flight",
+      "hud",
+      "nanotech",
+      "weapons-platform"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "The War Machine suit upgraded with partial nanotech construction, giving Rhodes on-demand weapons reconfiguration. Fought in the Battle of Wakanda against Thanos's army.",
+    "image_path": "/suits/war-machine-4.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "war-machine-6",
+    "designation": "WAR MACHINE MK VI",
+    "nickname": "Endgame Gunship",
+    "era": "variants",
+    "scope": "mcu",
+    "year_built_canonical": 2023,
+    "status": "active",
+    "first_appearance": "Avengers: Endgame (2019)",
+    "films": [
+      "Avengers: Endgame (2019)"
+    ],
+    "comics_appearances": [],
+    "materials": [
+      "Full Nanotech Military Alloy",
+      "Exo-Rehabilitation Integration"
+    ],
+    "power_source": "Arc Reactor Mark IV (Military)",
+    "color_primary": "#1A1A1A",
+    "color_secondary": "#D0D0D0",
+    "max_speed_mach": 4,
+    "max_altitude_ft": 60000,
+    "weight_kg": 28,
+    "stats": {
+      "durability": 92,
+      "speed": 82,
+      "firepower": 97,
+      "maneuverability": 80,
+      "ai_systems": 85,
+      "stealth": 25
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "mini-gun",
+      "smart-missiles",
+      "sonic-cannon",
+      "flight",
+      "hud",
+      "nanotech",
+      "weapons-platform",
+      "exo-assist"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "The Mark VI brought Rhodey's War Machine into the nanotech era with full weapons reconfiguration. Fought in the final battle against 2014-Thanos's army at the destroyed Avengers compound.",
+    "image_path": "/suits/war-machine-6.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "rescue",
+    "designation": "RESCUE MK I",
+    "nickname": "Rescue",
+    "era": "variants",
+    "scope": "both",
+    "year_built_canonical": 2023,
+    "status": "decommissioned",
+    "first_appearance": "Avengers: Endgame (2019)",
+    "films": [
+      "Avengers: Endgame (2019)"
+    ],
+    "comics_appearances": [
+      "Invincible Iron Man #10 (2009)"
+    ],
+    "materials": [
+      "Gold-Rose Nanotech Alloy",
+      "Non-Lethal Systems Matrix"
+    ],
+    "power_source": "Arc Reactor Mark IV (Pepper-Sized)",
+    "color_primary": "#C8A800",
+    "color_secondary": "#F5D78E",
+    "max_speed_mach": 4.5,
+    "max_altitude_ft": 80000,
+    "weight_kg": 14,
+    "stats": {
+      "durability": 90,
+      "speed": 88,
+      "firepower": 78,
+      "maneuverability": 90,
+      "ai_systems": 88,
+      "stealth": 35
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "flight",
+      "hud",
+      "nanotech",
+      "search-and-rescue",
+      "shield-projection",
+      "space-flight"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "Built by Tony for Pepper Potts — gold and rose-gold nanotech with a focus on protection and rescue over firepower. Pepper wore it in the final battle against Thanos, declaring herself Rescue.",
+    "image_path": "/suits/rescue.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "stealth-1",
+    "designation": "STEALTH ARMOR MK I",
+    "nickname": "The Ghost",
+    "era": "comics",
+    "scope": "comics",
+    "year_built_canonical": 1981,
+    "status": "decommissioned",
+    "first_appearance": "Iron Man #152 (1981)",
+    "films": [],
+    "comics_appearances": [
+      "Iron Man #152 (1981)",
+      "Iron Man #153 (1981)"
+    ],
+    "materials": [
+      "Radar-Absorbent Alloy",
+      "Black Composite Panels"
+    ],
+    "power_source": "Early Repulsor Arc Reactor",
+    "color_primary": "#1A1A1A",
+    "color_secondary": "#2A2A2A",
+    "max_speed_mach": 2,
+    "max_altitude_ft": 40000,
+    "weight_kg": 28,
+    "stats": {
+      "durability": 68,
+      "speed": 72,
+      "firepower": 62,
+      "maneuverability": 70,
+      "ai_systems": 45,
+      "stealth": 88
+    },
+    "capabilities": [
+      "repulsors",
+      "flight",
+      "radar-absorption",
+      "low-emission"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": true,
+      "underwater": false,
+      "ai_integrated": false,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "Tony's first dedicated stealth suit, built in 1981 for covert infiltration. Radar-absorbent plating and a suppressed power signature made it near-invisible to Cold War detection systems.",
+    "image_path": "/suits/stealth-1.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "stealth-2",
+    "designation": "STEALTH ARMOR MK II",
+    "nickname": "Deep Shadow",
+    "era": "comics",
+    "scope": "comics",
+    "year_built_canonical": 1985,
+    "status": "decommissioned",
+    "first_appearance": "Iron Man #190 (1985)",
+    "films": [],
+    "comics_appearances": [
+      "Iron Man #190 (1985)"
+    ],
+    "materials": [
+      "Advanced Radar-Absorbent Alloy",
+      "Improved Stealth Composites"
+    ],
+    "power_source": "Arc Reactor (Low-Emission Config)",
+    "color_primary": "#111122",
+    "color_secondary": "#1A1A2E",
+    "max_speed_mach": 2.5,
+    "max_altitude_ft": 50000,
+    "weight_kg": 25,
+    "stats": {
+      "durability": 72,
+      "speed": 78,
+      "firepower": 68,
+      "maneuverability": 76,
+      "ai_systems": 55,
+      "stealth": 92
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "flight",
+      "radar-absorption",
+      "low-emission",
+      "active-camouflage"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": true,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "A significant evolution of the stealth concept, the Mark II introduced active camouflage — bending light around the suit's surface for near-visual invisibility.",
+    "image_path": "/suits/stealth-2.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "stealth-3",
+    "designation": "STEALTH ARMOR MK III",
+    "nickname": "Silent Strike",
+    "era": "comics",
+    "scope": "comics",
+    "year_built_canonical": 1994,
+    "status": "decommissioned",
+    "first_appearance": "Iron Man #298 (1994)",
+    "films": [],
+    "comics_appearances": [
+      "Iron Man #298 (1994)",
+      "Iron Man #300 (1994)"
+    ],
+    "materials": [
+      "Chromatic-Adaptive Alloy",
+      "Stealth Ceramic Matrix"
+    ],
+    "power_source": "Arc Reactor (Whisper-Mode)",
+    "color_primary": "#0D0D1A",
+    "color_secondary": "#1A1A2E",
+    "max_speed_mach": 3,
+    "max_altitude_ft": 55000,
+    "weight_kg": 22,
+    "stats": {
+      "durability": 76,
+      "speed": 82,
+      "firepower": 74,
+      "maneuverability": 82,
+      "ai_systems": 68,
+      "stealth": 95
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "flight",
+      "radar-absorption",
+      "full-active-camouflage",
+      "sonic-dampening",
+      "heat-masking"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": true,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "The pinnacle of pre-nanotech stealth engineering. The Mark III suppressed radar, sonar, thermal, and optical signatures simultaneously — effectively a ghost in the machine.",
+    "image_path": "/suits/stealth-3.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "silver-centurion-comics",
+    "designation": "SILVER CENTURION",
+    "nickname": "Iron Man Mk VIII",
+    "era": "comics",
+    "scope": "both",
+    "year_built_canonical": 1985,
+    "status": "destroyed",
+    "first_appearance": "Iron Man #200 (1985)",
+    "films": [],
+    "comics_appearances": [
+      "Iron Man #200 (1985)",
+      "Iron Man #231 (1988)",
+      "Civil War (2007)"
+    ],
+    "materials": [
+      "Silver-Chrome Titanium Alloy",
+      "Red Accent Composites"
+    ],
+    "power_source": "Arc Reactor (Enhanced Output)",
+    "color_primary": "#C0C0C0",
+    "color_secondary": "#C0392B",
+    "max_speed_mach": 3.5,
+    "max_altitude_ft": 60000,
+    "weight_kg": 22,
+    "stats": {
+      "durability": 86,
+      "speed": 84,
+      "firepower": 88,
+      "maneuverability": 85,
+      "ai_systems": 72,
+      "stealth": 25
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "energy-conversion",
+      "solar-absorption"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "The comics Silver Centurion debuted in Iron Man #200, the issue Tony defeated Obadiah Stane. Silver with red accents, it was Tony's most advanced suit of the era — and the one he wore to win back his company.",
+    "image_path": "/suits/silver-centurion-comics.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "space-armor-1",
+    "designation": "SPACE ARMOR MK I",
+    "nickname": "Cosmos",
+    "era": "comics",
+    "scope": "comics",
+    "year_built_canonical": 1981,
+    "status": "decommissioned",
+    "first_appearance": "Iron Man #142 (1981)",
+    "films": [],
+    "comics_appearances": [
+      "Iron Man #142 (1981)",
+      "Iron Man #143 (1981)"
+    ],
+    "materials": [
+      "Space-Grade Titanium",
+      "Vacuum-Sealed Composites"
+    ],
+    "power_source": "Solar-Augmented Arc Reactor",
+    "color_primary": "#FFD700",
+    "color_secondary": "#C0392B",
+    "max_speed_mach": 8,
+    "max_altitude_ft": 999999,
+    "weight_kg": 26,
+    "stats": {
+      "durability": 80,
+      "speed": 88,
+      "firepower": 76,
+      "maneuverability": 80,
+      "ai_systems": 58,
+      "stealth": 20
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "flight",
+      "space-flight",
+      "vacuum-operation",
+      "solar-absorption",
+      "orbital-insertion"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "Tony's first dedicated space suit, designed in 1981 for operations beyond Earth's atmosphere. Its solar-augmented reactor replenished energy during orbital missions.",
+    "image_path": "/suits/space-armor-1.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "thorbuster",
+    "designation": "THORBUSTER",
+    "nickname": "God-Breaker",
+    "era": "comics",
+    "scope": "comics",
+    "year_built_canonical": 2003,
+    "status": "destroyed",
+    "first_appearance": "Iron Man Vol 3 #64 (2003)",
+    "films": [],
+    "comics_appearances": [
+      "Iron Man Vol 3 #64 (2003)",
+      "Iron Man Vol 3 #65 (2003)"
+    ],
+    "materials": [
+      "Asgardian Uru-Infused Titanium",
+      "Odinforce-Channelling Crystal Matrix"
+    ],
+    "power_source": "Odinforce-Charged Crystal (Asgardian Tech)",
+    "color_primary": "#1E3A6E",
+    "color_secondary": "#FFD700",
+    "max_speed_mach": 4,
+    "max_altitude_ft": 999999,
+    "weight_kg": 35,
+    "stats": {
+      "durability": 98,
+      "speed": 75,
+      "firepower": 98,
+      "maneuverability": 72,
+      "ai_systems": 74,
+      "stealth": 15
+    },
+    "capabilities": [
+      "repulsors",
+      "anti-divine-energy-beam",
+      "uru-infused-strikes",
+      "odinforce-absorption",
+      "flight",
+      "space-flight",
+      "hud"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "Built specifically to stop Thor when he went rogue enforcing his worldview on humanity. Powered by a crystal charged with the Odinforce, it was strong enough to wound the God of Thunder — briefly.",
+    "image_path": "/suits/thorbuster.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "extremis",
+    "designation": "EXTREMIS ARMOR",
+    "nickname": "Bio-Tech",
+    "era": "comics",
+    "scope": "both",
+    "year_built_canonical": 2005,
+    "status": "decommissioned",
+    "first_appearance": "Iron Man Vol 4 #1 (2005)",
+    "films": [],
+    "comics_appearances": [
+      "Iron Man Vol 4 #1 (2005)",
+      "Iron Man Vol 4 #6 (2006)"
+    ],
+    "materials": [
+      "Liquid Titanium-Sheath",
+      "Extremis Bio-Interface"
+    ],
+    "power_source": "Extremis-Enhanced Arc Reactor (Bio-Integrated)",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 4.5,
+    "max_altitude_ft": 80000,
+    "weight_kg": 11,
+    "stats": {
+      "durability": 88,
+      "speed": 90,
+      "firepower": 90,
+      "maneuverability": 92,
+      "ai_systems": 96,
+      "stealth": 40
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "missiles",
+      "flight",
+      "hud",
+      "bio-integration",
+      "neural-direct-interface",
+      "stored-in-bones"
+    ],
+    "capability_flags": {
+      "space_capable": false,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "After taking the Extremis virus, Tony integrated the suit's undersheath into his own biology — stored in his bones, deployable via direct neural command. Man and machine became one.",
+    "image_path": "/suits/extremis.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "endo-sym",
+    "designation": "ENDO-SYM ARMOR",
+    "nickname": "Living Metal",
+    "era": "comics",
+    "scope": "comics",
+    "year_built_canonical": 2014,
+    "status": "decommissioned",
+    "first_appearance": "Superior Iron Man #1 (2014)",
+    "films": [],
+    "comics_appearances": [
+      "Superior Iron Man #1 (2014)",
+      "Superior Iron Man #9 (2015)"
+    ],
+    "materials": [
+      "Symbiote-Based Living Metal",
+      "Psychoreactive Alloy"
+    ],
+    "power_source": "Psychoreactive Bio-Energy",
+    "color_primary": "#E8E8E8",
+    "color_secondary": "#C0C0D0",
+    "max_speed_mach": 5,
+    "max_altitude_ft": 90000,
+    "weight_kg": 10,
+    "stats": {
+      "durability": 92,
+      "speed": 90,
+      "firepower": 88,
+      "maneuverability": 94,
+      "ai_systems": 98,
+      "stealth": 65
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "shape-shifting",
+      "flight",
+      "hud",
+      "psychoreactive-morphing",
+      "symbiote-tendrils",
+      "self-repair"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": true,
+      "underwater": true,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "Inspired by alien symbiote biology, the Endo-Sym responds to Tony's thoughts without any digital interface — it is psychoreactive living metal that anticipates its wearer. Worn during the darker Superior Iron Man period.",
+    "image_path": "/suits/endo-sym.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "model-prime",
+    "designation": "MODEL PRIME ARMOR",
+    "nickname": "Shifting Shape",
+    "era": "comics",
+    "scope": "comics",
+    "year_built_canonical": 2015,
+    "status": "active",
+    "first_appearance": "Invincible Iron Man Vol 4 #1 (2015)",
+    "films": [],
+    "comics_appearances": [
+      "Invincible Iron Man Vol 4 #1 (2015)",
+      "Civil War II (2016)"
+    ],
+    "materials": [
+      "Unstable Molecule Composite",
+      "Morphic Nanotech Alloy"
+    ],
+    "power_source": "Multi-Configuration Arc Reactor",
+    "color_primary": "#C0392B",
+    "color_secondary": "#FFB800",
+    "max_speed_mach": 5.5,
+    "max_altitude_ft": 999999,
+    "weight_kg": 10,
+    "stats": {
+      "durability": 94,
+      "speed": 94,
+      "firepower": 94,
+      "maneuverability": 96,
+      "ai_systems": 96,
+      "stealth": 70
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "shape-shifting-weapons",
+      "flight",
+      "space-flight",
+      "hud",
+      "morphic-nanotech",
+      "full-reconfiguration",
+      "stealth-mode",
+      "hulkbuster-mode"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": true,
+      "underwater": true,
+      "ai_integrated": true,
+      "nanotech": true,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "The most versatile suit in comics history — Model Prime can reconfigure into any Iron Man armour that has ever existed, or into entirely new forms, in real time. One suit. Infinite configurations.",
+    "image_path": "/suits/model-prime.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "godkiller",
+    "designation": "GODKILLER ARMOR",
+    "nickname": "Celestial Slayer",
+    "era": "comics",
+    "scope": "comics",
+    "year_built_canonical": 2013,
+    "status": "destroyed",
+    "first_appearance": "Invincible Iron Man Vol 3 #6 (2013)",
+    "films": [],
+    "comics_appearances": [
+      "Invincible Iron Man Vol 3 #6 (2013)",
+      "Invincible Iron Man Vol 3 #13 (2014)"
+    ],
+    "materials": [
+      "Uru-Titanium Composite",
+      "Celestial-Grade Hull Plating",
+      "Dark Energy Conduits"
+    ],
+    "power_source": "Dark Energy Siphon Core",
+    "color_primary": "#0D1B2A",
+    "color_secondary": "#B8860B",
+    "max_speed_mach": 15,
+    "max_altitude_ft": 999999,
+    "weight_kg": 800,
+    "stats": {
+      "durability": 98,
+      "speed": 85,
+      "firepower": 99,
+      "maneuverability": 75,
+      "ai_systems": 72,
+      "stealth": 20
+    },
+    "capabilities": [
+      "godkiller-beam",
+      "repulsors",
+      "flight",
+      "space-flight",
+      "planetary-scale-weapons",
+      "dark-energy-absorption",
+      "celestial-combat",
+      "vacuum-operation"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "Built to fight the Celestials — cosmic beings who judge entire planets. The Godkiller is Tony's answer to the question: what do you build to kill a god? It's the size of a space station.",
+    "image_path": "/suits/godkiller.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "godkiller-2",
+    "designation": "GODKILLER MK II",
+    "nickname": "God-Slayer II",
+    "era": "comics",
+    "scope": "comics",
+    "year_built_canonical": 2014,
+    "status": "decommissioned",
+    "first_appearance": "Invincible Iron Man Vol 3 #9 (2014)",
+    "films": [],
+    "comics_appearances": [
+      "Invincible Iron Man Vol 3 #9 (2014)"
+    ],
+    "materials": [
+      "Next-Gen Uru-Titanium Composite",
+      "Anti-Celestial Hull",
+      "Quantum-Dark Energy Matrix"
+    ],
+    "power_source": "Quantum Dark Energy Core",
+    "color_primary": "#0A1520",
+    "color_secondary": "#C0C0C0",
+    "max_speed_mach": 20,
+    "max_altitude_ft": 999999,
+    "weight_kg": 600,
+    "stats": {
+      "durability": 99,
+      "speed": 90,
+      "firepower": 99,
+      "maneuverability": 80,
+      "ai_systems": 80,
+      "stealth": 25
+    },
+    "capabilities": [
+      "godkiller-beam",
+      "repulsors",
+      "flight",
+      "space-flight",
+      "anti-celestial-weapons",
+      "dark-energy-absorption",
+      "anti-matter-missiles"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": false,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "A refined Godkiller with improved quantum-dark energy systems and a lighter hull. Built to address the weaknesses of the original in Tony's ongoing war against the Celestials.",
+    "image_path": "/suits/godkiller-2.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "iron-god",
+    "designation": "IRON GOD ARMOR",
+    "nickname": "The Divine Machine",
+    "era": "comics",
+    "scope": "comics",
+    "year_built_canonical": 2014,
+    "status": "decommissioned",
+    "first_appearance": "Invincible Iron Man Vol 3 #13 (2014)",
+    "films": [],
+    "comics_appearances": [
+      "Invincible Iron Man Vol 3 #13 (2014)"
+    ],
+    "materials": [
+      "Godforce-Infused Alloy",
+      "Celestial Power Matrix"
+    ],
+    "power_source": "Absorbed Celestial Power Core",
+    "color_primary": "#F5F5DC",
+    "color_secondary": "#FFD700",
+    "max_speed_mach": 999,
+    "max_altitude_ft": 999999,
+    "weight_kg": 0,
+    "stats": {
+      "durability": 99,
+      "speed": 99,
+      "firepower": 99,
+      "maneuverability": 99,
+      "ai_systems": 80,
+      "stealth": 50
+    },
+    "capabilities": [
+      "godforce-blasts",
+      "reality-manipulation",
+      "flight",
+      "space-flight",
+      "omnidirectional-energy",
+      "matter-manipulation"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": false,
+      "underwater": true,
+      "ai_integrated": false,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "After absorbing Celestial power during the Godkiller mission, Tony briefly became Iron God — a being of near-unlimited energy. The most powerful Tony Stark has ever been. It did not last.",
+    "image_path": "/suits/iron-god.png",
+    "legacy_trail": []
+  },
+  {
+    "id": "superior-iron-man",
+    "designation": "SUPERIOR IRON MAN",
+    "nickname": "Inverted",
+    "era": "comics",
+    "scope": "comics",
+    "year_built_canonical": 2014,
+    "status": "destroyed",
+    "first_appearance": "Superior Iron Man #1 (2014)",
+    "films": [],
+    "comics_appearances": [
+      "Superior Iron Man #1-9 (2014-2015)"
+    ],
+    "materials": [
+      "Endo-Sym Living Metal",
+      "Psychoreactive Silver Alloy"
+    ],
+    "power_source": "Psychoreactive Bio-Energy (Inverted)",
+    "color_primary": "#E8E8E8",
+    "color_secondary": "#1A1A1A",
+    "max_speed_mach": 5.2,
+    "max_altitude_ft": 90000,
+    "weight_kg": 10,
+    "stats": {
+      "durability": 93,
+      "speed": 91,
+      "firepower": 90,
+      "maneuverability": 95,
+      "ai_systems": 99,
+      "stealth": 68
+    },
+    "capabilities": [
+      "repulsors",
+      "uni-beam",
+      "shape-shifting",
+      "flight",
+      "hud",
+      "psychoreactive-morphing",
+      "self-repair",
+      "telepathic-control"
+    ],
+    "capability_flags": {
+      "space_capable": true,
+      "stealth": true,
+      "underwater": true,
+      "ai_integrated": true,
+      "nanotech": false,
+      "remote_controlled": false,
+      "vibranium_laced": false
+    },
+    "lore": "When Tony's morality was inverted by the Scarlet Witch, his Superior Iron Man suit reflected the change — full-white Endo-Sym armour wielded by a Tony Stark with no ethical constraints. Eventually destroyed when he was reverted.",
+    "image_path": "/suits/superior-iron-man.png",
+    "legacy_trail": []
+  }
+]

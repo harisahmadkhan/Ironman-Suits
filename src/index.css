@@ -27,7 +27,7 @@ html, body {
   min-height: 100vh;
   background-color: var(--bg-base);
   color: var(--text-primary);
-  font-family: 'Inter', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -150,3 +150,4 @@ html, body {
 /* ── Utility ────────────────────────────────────────────────── */
 .font-display { font-family: 'Orbitron', sans-serif; }
 .font-mono-ui  { font-family: 'JetBrains Mono', monospace; }
+.font-body     { font-family: 'DM Sans', sans-serif; }

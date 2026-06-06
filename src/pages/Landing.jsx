@@ -18,55 +18,74 @@ const PARTICLES = Array.from({ length: 45 }, (_, i) => ({
   dur: 3 + (i % 5),
 }))
 
-function ArcReactor({ pulse }) {
+function ArcReactor({ pulse, size = 'sm' }) {
+  const dim = size === 'lg' ? 'w-56 h-56' : 'w-20 h-20'
+  const sw = size === 'lg' ? 1.2 : 0.8
   return (
     <svg
-      viewBox="0 0 100 100"
-      className="w-20 h-20"
+      viewBox="0 0 200 200"
+      className={dim}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      {/* Outer rings */}
-      <circle cx="50" cy="50" r="46" stroke="#00D4FF" strokeWidth="0.8" strokeOpacity="0.3" />
-      <circle cx="50" cy="50" r="38" stroke="#00D4FF" strokeWidth="0.5" strokeOpacity="0.25" />
-      <circle cx="50" cy="50" r="30" stroke="#00D4FF" strokeWidth="0.5" strokeOpacity="0.2" />
+      {/* Outer glow rings */}
+      <circle cx="100" cy="100" r="96" stroke="#00D4FF" strokeWidth={sw * 0.6} strokeOpacity="0.15" />
+      <circle cx="100" cy="100" r="88" stroke="#00D4FF" strokeWidth={sw * 0.8} strokeOpacity="0.25" />
+      <circle cx="100" cy="100" r="78" stroke="#00D4FF" strokeWidth={sw * 0.6} strokeOpacity="0.2" />
 
-      {/* Triangle (arc reactor geometry) */}
-      <polygon
-        points="50,22 72,64 28,64"
-        stroke="#00D4FF"
-        strokeWidth="1"
-        strokeOpacity="0.7"
-        fill="rgba(0,212,255,0.04)"
-      />
-
-      {/* Spokes */}
-      {[0, 60, 120, 180, 240, 300].map((deg) => {
+      {/* Outer hex ring detail marks */}
+      {[0,30,60,90,120,150,180,210,240,270,300,330].map((deg) => {
         const rad = (deg * Math.PI) / 180
-        const x1 = 50 + Math.cos(rad) * 16
-        const y1 = 50 + Math.sin(rad) * 16
-        const x2 = 50 + Math.cos(rad) * 28
-        const y2 = 50 + Math.sin(rad) * 28
-        return (
-          <line key={deg} x1={x1} y1={y1} x2={x2} y2={y2}
-            stroke="#00D4FF" strokeWidth="0.7" strokeOpacity="0.5" />
-        )
+        const x1 = 100 + Math.cos(rad) * 84
+        const y1 = 100 + Math.sin(rad) * 84
+        const x2 = 100 + Math.cos(rad) * 90
+        const y2 = 100 + Math.sin(rad) * 90
+        return <line key={deg} x1={x1} y1={y1} x2={x2} y2={y2} stroke="#00D4FF" strokeWidth={sw * 0.8} strokeOpacity="0.5" />
       })}
 
-      {/* Center glow */}
-      <circle cx="50" cy="50" r="9" fill="#00D4FF" fillOpacity="0.15" />
-      <circle cx="50" cy="50" r="6" fill="#00D4FF" fillOpacity="0.6" />
-      <circle cx="50" cy="50" r="3" fill="white" fillOpacity="0.95" />
+      {/* Mid ring */}
+      <circle cx="100" cy="100" r="62" stroke="#00D4FF" strokeWidth={sw * 1.2} strokeOpacity="0.35" />
 
-      {/* Animated pulse ring */}
+      {/* Triangular core (original arc reactor triangle) */}
+      <polygon
+        points="100,48 148,132 52,132"
+        stroke="#00D4FF"
+        strokeWidth={sw * 1.5}
+        strokeOpacity="0.85"
+        fill="rgba(0,212,255,0.06)"
+      />
+
+      {/* Inner spokes — 6 */}
+      {[0,60,120,180,240,300].map((deg) => {
+        const rad = (deg * Math.PI) / 180
+        const x1 = 100 + Math.cos(rad) * 28
+        const y1 = 100 + Math.sin(rad) * 28
+        const x2 = 100 + Math.cos(rad) * 48
+        const y2 = 100 + Math.sin(rad) * 48
+        return <line key={deg} x1={x1} y1={y1} x2={x2} y2={y2} stroke="#00D4FF" strokeWidth={sw * 1.2} strokeOpacity="0.6" />
+      })}
+
+      {/* Inner ring */}
+      <circle cx="100" cy="100" r="26" stroke="#00D4FF" strokeWidth={sw * 1.4} strokeOpacity="0.5" />
+
+      {/* Center glow layers */}
+      <circle cx="100" cy="100" r="18" fill="#00D4FF" fillOpacity="0.12" />
+      <circle cx="100" cy="100" r="12" fill="#00D4FF" fillOpacity="0.35" />
+      <circle cx="100" cy="100" r="7"  fill="#00D4FF" fillOpacity="0.75" />
+      <circle cx="100" cy="100" r="4"  fill="white"   fillOpacity="0.95" />
+
+      {/* Pulse rings */}
       {pulse && (
         <>
-          <circle cx="50" cy="50" r="9" fill="#00D4FF" fillOpacity="0">
-            <animate attributeName="r" values="9;22;9" dur="1.8s" repeatCount="indefinite" />
-            <animate attributeName="fill-opacity" values="0.4;0;0.4" dur="1.8s" repeatCount="indefinite" />
+          <circle cx="100" cy="100" r="18" fill="#00D4FF" fillOpacity="0">
+            <animate attributeName="r" values="18;50;18" dur="2.2s" repeatCount="indefinite" />
+            <animate attributeName="fill-opacity" values="0.35;0;0.35" dur="2.2s" repeatCount="indefinite" />
           </circle>
-          <circle cx="50" cy="50" r="38" stroke="#00D4FF" strokeWidth="1" strokeOpacity="0">
-            <animate attributeName="stroke-opacity" values="0;0.4;0" dur="1.8s" repeatCount="indefinite" />
+          <circle cx="100" cy="100" r="78" stroke="#00D4FF" strokeWidth={sw * 1.5} strokeOpacity="0">
+            <animate attributeName="stroke-opacity" values="0;0.5;0" dur="2.2s" repeatCount="indefinite" />
+          </circle>
+          <circle cx="100" cy="100" r="96" stroke="#00D4FF" strokeWidth={sw} strokeOpacity="0">
+            <animate attributeName="stroke-opacity" values="0;0.25;0" dur="2.2s" begin="0.4s" repeatCount="indefinite" />
           </circle>
         </>
       )}
@@ -212,7 +231,7 @@ export default function Landing() {
                   transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
                   className="mb-10"
                 >
-                  <ArcReactor pulse={bootPhase >= 1} />
+                  <ArcReactor pulse={bootPhase >= 1} size="lg" />
                 </motion.div>
               )}
             </AnimatePresence>
@@ -274,18 +293,12 @@ export default function Landing() {
                   e.currentTarget.nextSibling.style.display = 'flex'
                 }}
               />
-              {/* Fallback silhouette */}
+              {/* Fallback: arc reactor */}
               <div
                 className="absolute inset-0 z-10 items-center justify-center float hidden"
                 style={{ display: 'none' }}
               >
-                <div
-                  className="w-32 h-44 rounded-t-full opacity-20"
-                  style={{
-                    background: 'linear-gradient(180deg, rgba(0,212,255,0.4) 0%, rgba(192,57,43,0.4) 100%)',
-                    border: '1px solid rgba(0,212,255,0.3)',
-                  }}
-                />
+                <ArcReactor pulse size="lg" />
               </div>
             </motion.div>
 

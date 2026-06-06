@@ -7,15 +7,6 @@ import ScopeBadge from '@/components/ui/ScopeBadge'
 import StatusBadge from '@/components/ui/StatusBadge'
 import { cardVariants } from '@/lib/motion'
 
-function CapChip({ label }) {
-  return (
-    <span className="inline-flex items-center px-1.5 py-0.5 font-mono-ui text-[9px] tracking-wider uppercase text-text-secondary rounded-sm"
-      style={{ border: '1px solid rgba(0,212,255,0.14)', background: 'rgba(0,212,255,0.04)' }}>
-      {label}
-    </span>
-  )
-}
-
 export default function SuitCard({ suit, compareMode = false, isSelected = false, onToggleSelect, view = 'grid' }) {
   const navigate = useNavigate()
 
@@ -108,7 +99,7 @@ export default function SuitCard({ suit, compareMode = false, isSelected = false
       variants={cardVariants}
       onClick={handleClick}
       className={clsx(
-        'relative flex flex-col bg-bg-card cursor-pointer transition-all duration-200 rounded overflow-hidden scan-hover group',
+        'relative cursor-pointer rounded overflow-hidden group',
         compareMode
           ? isSelected
             ? 'ring-2 ring-[#00D4FF]'
@@ -116,98 +107,68 @@ export default function SuitCard({ suit, compareMode = false, isSelected = false
           : '',
       )}
       style={{
+        aspectRatio: '3/4',
         border: '1px solid rgba(0,212,255,0.12)',
-        boxShadow: isSelected
-          ? '0 0 20px rgba(0,212,255,0.25)'
-          : compareMode
-          ? 'none'
-          : '0 0 8px rgba(0,212,255,0.04)',
+        background: '#0A0C10',
+        boxShadow: isSelected ? '0 0 20px rgba(0,212,255,0.25)' : 'none',
       }}
-      whileHover={!compareMode ? { y: -3, boxShadow: '0 0 24px rgba(0,212,255,0.2), inset 0 0 24px rgba(0,212,255,0.06)' } : {}}
+      whileHover={{ y: -4 }}
     >
       {/* Color accent top strip */}
       <div
-        className="absolute top-0 inset-x-0 h-[2px] opacity-70"
+        className="absolute top-0 inset-x-0 h-[2px] z-10 opacity-70"
         style={{
           background: `linear-gradient(90deg, ${suit.color_primary || '#C0392B'}, ${suit.color_secondary || '#FFB800'})`,
         }}
       />
 
-      {/* Selected overlay checkmark */}
+      {/* Compare checkmark */}
       {compareMode && isSelected && (
-        <div className="absolute top-2 right-2 z-10 w-5 h-5 rounded-full bg-[#00D4FF] flex items-center justify-center shadow-lg">
-          <Check className="w-3 h-3 text-bg-base font-bold" />
+        <div className="absolute top-2 right-2 z-20 w-5 h-5 rounded-full bg-[#00D4FF] flex items-center justify-center shadow-lg">
+          <Check className="w-3 h-3 text-bg-base" />
         </div>
       )}
 
-      {/* Badges */}
-      <div className="flex items-center gap-1.5 px-3 pt-3 flex-wrap">
-        <EraTag era={suit.era} />
-        <ScopeBadge scope={suit.scope} />
-        <div className="ml-auto"><StatusBadge status={suit.status} /></div>
-      </div>
+      {/* Suit image fills the card */}
+      <img
+        src={suit.image_path}
+        alt={suit.designation}
+        className="absolute inset-0 w-full h-full object-contain transition-transform duration-500 group-hover:scale-108 p-4"
+        style={{ filter: `drop-shadow(0 4px 20px ${suit.color_primary || '#C0392B'}66)` }}
+        onError={(e) => {
+          e.currentTarget.style.display = 'none'
+          const fb = e.currentTarget.nextElementSibling
+          if (fb) fb.style.display = 'flex'
+        }}
+      />
 
-      {/* Suit image */}
-      <div className="relative flex items-center justify-center h-40 px-4 mt-1 overflow-hidden">
-        {/* Color ambient glow */}
+      {/* Fallback: color gradient silhouette */}
+      <div
+        className="absolute inset-0 items-center justify-center"
+        style={{ display: 'none' }}
+      >
         <div
-          className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          className="w-1/2 h-3/4 rounded-t-full opacity-30 group-hover:opacity-50 transition-opacity duration-300"
           style={{
-            background: `radial-gradient(ellipse at center, ${suit.color_primary || '#C0392B'}22 0%, transparent 70%)`,
+            background: `linear-gradient(180deg, ${suit.color_primary || '#C0392B'}, ${suit.color_secondary || '#FFB800'})`,
           }}
         />
-        <img
-          src={suit.image_path}
-          alt={suit.designation}
-          className="relative z-10 h-full w-full object-contain transition-transform duration-300 group-hover:scale-105"
-          style={{ filter: `drop-shadow(0 4px 16px ${suit.color_primary || '#C0392B'}55)` }}
-          onError={(e) => {
-            e.currentTarget.style.display = 'none'
-            const fb = e.currentTarget.nextElementSibling
-            if (fb) fb.style.display = 'flex'
-          }}
-        />
-        {/* Fallback silhouette */}
-        <div className="absolute inset-0 items-center justify-center z-10" style={{ display: 'none' }}>
-          <div
-            className="w-14 h-20 rounded-t-full opacity-25 transition-opacity group-hover:opacity-40"
-            style={{
-              background: `linear-gradient(180deg, ${suit.color_primary || '#C0392B'}, ${suit.color_secondary || '#FFB800'})`,
-            }}
-          />
-        </div>
       </div>
 
-      {/* Info */}
-      <div className="flex flex-col gap-2 px-3 pb-3 flex-1">
-        <div>
-          <p className="font-mono-ui text-xs text-[#00D4FF] tracking-wider leading-tight">
+      {/* Hover overlay: gradient + name */}
+      <div
+        className="absolute inset-0 flex flex-col justify-end opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+        style={{
+          background: `linear-gradient(to top, ${suit.color_primary || '#C0392B'}CC 0%, ${suit.color_primary || '#C0392B'}55 40%, transparent 70%)`,
+        }}
+      >
+        <div className="px-3 pb-4">
+          <p className="font-mono-ui text-[11px] text-white tracking-[0.18em] uppercase font-semibold leading-tight drop-shadow-lg">
             {suit.designation}
           </p>
-          <p className="font-body text-xs text-text-secondary leading-tight truncate">
+          <p className="font-body text-[11px] text-white/70 leading-tight mt-0.5">
             "{suit.nickname}"
           </p>
-        </div>
-
-        {/* Color swatches */}
-        <div className="flex items-center gap-1.5">
-          <div
-            className="w-6 h-2 rounded-sm"
-            style={{ background: suit.color_primary || '#C0392B' }}
-            title={suit.color_primary}
-          />
-          <div
-            className="w-3.5 h-2 rounded-sm opacity-80"
-            style={{ background: suit.color_secondary || '#FFB800' }}
-            title={suit.color_secondary}
-          />
-        </div>
-
-        {/* Capability chips */}
-        <div className="flex flex-wrap gap-1">
-          {(suit.capabilities || []).slice(0, 3).map((cap) => (
-            <CapChip key={cap} label={cap} />
-          ))}
         </div>
       </div>
     </motion.div>
